@@ -66,7 +66,7 @@ const RegistrarUsuario = () => {
           <Header
             title='¡Bienvenido!'
             emoji='👋'
-            description='Completá con tus datos y se parte de nuestra liga.'
+            description='Completá el formulario con tus datos y se parte de nuestra liga.'
           />
         )}
         <div className='w-full m-auto'>
@@ -193,7 +193,7 @@ const RegistrarUsuario = () => {
               </div>
               <div className='form-control'>
                 <label className='label'>
-                  <span className='label-text text-primary font-medium'>Foto de perfil</span>
+                  <span className='label-text text-primary font-medium'>Foto de perfil (sugerido)</span>
                 </label>
                 <input
                   type='file'

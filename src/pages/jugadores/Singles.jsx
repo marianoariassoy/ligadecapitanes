@@ -9,6 +9,9 @@ const JugadoresSingles = ({ id }) => {
 
   const labels = [
     {
+      name: 'G/P'
+    },
+    {
       name: 'Fecha'
     },
     {
@@ -17,9 +20,7 @@ const JugadoresSingles = ({ id }) => {
     {
       name: 'Resultado'
     },
-    {
-      name: 'G/P'
-    },
+
     {
       name: 'Torneo'
     }
@@ -27,10 +28,10 @@ const JugadoresSingles = ({ id }) => {
 
   return (
     <section className='fade-in flex flex-col gap-y-3'>
-      <h1 className='text-center font-semibold text-primary'>Singles disputados</h1>
+      <h1 className='text-center text-sm font-semibold text-primary'>Singles disputados</h1>
 
       <div className='overflow-x-auto text-sm'>
-        <table className='table w-full'>
+        <table className='table w-full mb-3'>
           <thead>
             <tr>
               {labels.map((label, index) => (
@@ -46,7 +47,12 @@ const JugadoresSingles = ({ id }) => {
           <tbody>
             {data.map(item => (
               <tr key={item.id}>
-                <td className='pl-0 text-secondary font-medium'>{item.date}</td>
+                <td>
+                  <div className='h-7 w-7 rounded-full flex justify-center items-center border text-primary border-primary'>
+                    {item.result}
+                  </div>
+                </td>
+                <td className='text-secondary font-medium'>{item.date}</td>
                 <td>
                   <Link
                     to={`/jugadores/${item.oponent_id}`}
@@ -64,11 +70,7 @@ const JugadoresSingles = ({ id }) => {
                 <td>
                   <span className='font-medium '>{item.score}</span>
                 </td>
-                <td>
-                  <div className='h-7 w-7 rounded-full flex justify-center items-center border text-primary border-primary'>
-                    {item.result}
-                  </div>
-                </td>
+
                 <td>
                   <Link
                     to={`/torneos/${item.tournament_id}`}

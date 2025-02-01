@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet'
 import Item from './Item'
-import Counter from '../Counter'
+import Counter from '../../components/Counter'
 import Whatsapp from '../../components/Whatsapp'
 
 const Presentacion = () => {

@@ -2,19 +2,18 @@ import { Link } from 'react-router-dom'
 import useFetch from '../../hooks/useFetch'
 import Loader from '../../components/Loader'
 import TeamItem from '../../components/TeamItem'
-import Messages from '../../components/Messages'
 
 const JugadoresEquipos = ({ id }) => {
   const { data, loading } = useFetch(`/players/${id}/teams`)
   if (loading) return <Loader />
-  if (!data) return <Messages text='Todavía no perteneces a ningún equipo 🥲' />
+  if (!data) return null
 
   return (
     <section className='fade-in flex flex-col gap-y-3'>
-      <h1 className='text-center font-semibold text-primary'>Equipos integrados</h1>
+      <h1 className='text-center text-sm font-semibold text-primary'>Equipos</h1>
 
       <div className='overflow-x-auto text-sm'>
-        <table className='table w-full'>
+        <table className='table w-full mb-3'>
           <thead>
             <tr>
               <th className='pl-0'>Nombre</th>
