@@ -30,12 +30,11 @@ const Header = () => {
             alt='logo'
             className='h-20 w-auto'
           />
-          {/* Liga de Capitanes */}
         </Link>
       </div>
       <div className='navbar-end text-secondary'>
         <a
-          href='https://www.instagram.com/liga_de_capitanes'
+          href='https://www.instagram.com/ligadecapitanes'
           target='_blank'
           rel='noopener noreferrer'
           className='hover:text-primary'
