@@ -5,7 +5,7 @@ export const categories = [
 
 export const menu = [
   { name: 'Ranking Jugadores', url: '/soon' },
-  { name: 'Ranking de Campeones', url: '/soon' },
+  { name: 'Ranking de Campeones', url: '/ranking/campeones' },
   { name: 'Orden de juego', url: '/orden-de-juego' },
   { name: 'Jugadores', url: '/jugadores' },
   { name: 'Reglamento', url: '/soon' },

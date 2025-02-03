@@ -6,10 +6,10 @@ import Layout from './layout/Layout'
 // import Teams from './pages/equipos'
 // import Series from './pages/series'
 import OrdenDeJuego from './pages/torneos/OrdenDeJuego'
-// import Clubes from './pages/clubes'
+import Clubes from './pages/clubes'
 import JugadoresProfile from './pages/jugadores/Perfil'
 // import RankingJugadores from './pages/rankings/Jugadores'
-// import RankingCampeones from './pages/rankings/Campeones'
+import RankingCampeones from './pages/rankings/Campeones'
 import Jugadores from './pages/jugadores'
 // import TorneosAnteriores from './pages/torneos-anteriores'
 // import Reglamento from './pages/reglamento'
@@ -39,10 +39,7 @@ const App = () => {
             path='/torneos/:id'
             element={<Tournaments />}
           />
-          <Route
-            path='/clubes/:id'
-            element={<Clubes />}
-          />
+  
           <Route
             path='/equipos/:id'
             element={<Teams />}
@@ -57,10 +54,7 @@ const App = () => {
             path='/ranking/jugadores'
             element={<RankingJugadores />}
           />
-          <Route
-            path='/ranking/campeones'
-            element={<RankingCampeones />}
-          /> */}
+         */}
           {/* <Route
             path='/torneos-anteriores'
             element={<TorneosAnteriores />}
@@ -70,6 +64,15 @@ const App = () => {
             path='/reglamento'
             element={<Reglamento />}
           />*/}
+
+          <Route
+            path='/clubes/:id'
+            element={<Clubes />}
+          />
+          <Route
+            path='/ranking/campeones'
+            element={<RankingCampeones />}
+          />
           <Route
             path='/orden-de-juego'
             element={<OrdenDeJuego />}

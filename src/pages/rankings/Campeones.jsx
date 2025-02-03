@@ -11,21 +11,18 @@ const Champions = () => {
 
   const labels = [
     {
-      name: 'Club',
+      name: 'Club/Barrio',
       value: ''
     },
     {
-      name: 'Oro',
+      name: 'Gaudio',
       value: 'Copas de oro'
     },
     {
-      name: 'Plata',
+      name: 'Coria',
       value: 'Copas de plata'
     },
-    {
-      name: 'SC',
-      value: 'Supercopas'
-    },
+
     {
       name: 'Finales',
       value: 'Finales disputadas'
@@ -40,7 +37,7 @@ const Champions = () => {
       />
 
       <div className='overflow-x-auto text-sm'>
-        <table className='table w-full'>
+        <table className='table w-full mb-3'>
           <thead>
             <tr>
               {labels.map((item, index) => (
@@ -63,7 +60,6 @@ const Champions = () => {
 
                 <td>{item.gold}</td>
                 <td>{item.silver}</td>
-                <td>{item.supercopa}</td>
                 <td>{item.finals}</td>
               </tr>
             ))}
@@ -74,7 +70,7 @@ const Champions = () => {
       <Labels labels={labels} />
 
       <Helmet>
-        <title>IML Tenis Ranking de Campeones</title>
+        <title>Ranking de Campeones - Liga de Capitanes</title>
       </Helmet>
     </section>
   )

@@ -235,7 +235,7 @@ const RegistrarUsuario = () => {
         </div>
       </div>
       <Helmet>
-        <title>Liga de Capitanes Registro</title>
+        <title>Bienvenido - Liga de Capitanes</title>
       </Helmet>
     </section>
   )
