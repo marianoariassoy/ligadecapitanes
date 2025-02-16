@@ -57,7 +57,7 @@ const TournamentsContainer = () => {
       <GroupsContainer id={id} />
 
       <Helmet>
-        <title>IML Tenis {info.title}</title>
+        <title>{info.title} - Liga de Capitanes</title>
       </Helmet>
     </section>
   )

@@ -200,7 +200,7 @@ const RegistrarUsuario = () => {
                   accept='image/*'
                   name='file'
                   register={register('file')}
-                  className='pl-3 file-input file-input-bordered file-input-secondary w-full text-sm'
+                  className='file:mr-4 file:rounded-full file:border-0 file:bg-primary file:px-4 file:py-3 file:h-12 file:text-sm file:font-semibold hover:file:bg-secondary file:cursor-pointer'
                   onChange={getFile}
                 />
                 {image && (

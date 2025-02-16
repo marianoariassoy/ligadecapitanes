@@ -82,7 +82,7 @@ const Teams = () => {
 
       <Helmet>
         <title>
-          IML Tenis {data.name} {data.tournament_name}
+          {data.name} {data.tournament_name} - Liga de Capitanes
         </title>
       </Helmet>
     </section>

@@ -93,7 +93,7 @@ const ClubesContainer = () => {
       <Teams id={id} />
 
       <Helmet>
-        <title>IML Tenis {data[0].name}</title>
+        <title>{data[0].name} - Liga de Capitanes</title>
       </Helmet>
     </section>
   )

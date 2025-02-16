@@ -36,7 +36,7 @@ const ClubesTeams = ({ id }) => {
       <h1 className='text-center text-primary font-bold'>Equipos</h1>
 
       <div className='overflow-x-auto text-sm'>
-        <table className='table w-full'>
+        <table className='table w-full mb-3'>
           <thead>
             <tr>
               {labels.map((item, index) => (

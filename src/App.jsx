@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import ReactGA from 'react-ga4'
 import Layout from './layout/Layout'
 // import Welcome from './pages/home'
-// import Tournaments from './pages/torneos'
-// import Teams from './pages/equipos'
-// import Series from './pages/series'
+import Tournaments from './pages/torneos'
+import Teams from './pages/equipos'
+import Series from './pages/series'
 import OrdenDeJuego from './pages/torneos/OrdenDeJuego'
 import Clubes from './pages/clubes'
 import JugadoresProfile from './pages/jugadores/Perfil'
@@ -35,21 +35,21 @@ const App = () => {
             path='/'
             element={<Welcome />}
           /> */}
-          {/* <Route
+          <Route
             path='/torneos/:id'
             element={<Tournaments />}
           />
-  
+
           <Route
             path='/equipos/:id'
             element={<Teams />}
           />
-        
+
           <Route
             path='/series/:id'
             element={<Series />}
           />
-     
+          {/*
           <Route
             path='/ranking/jugadores'
             element={<RankingJugadores />}

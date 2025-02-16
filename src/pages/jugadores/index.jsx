@@ -53,7 +53,7 @@ const index = () => {
       </div>
 
       <Helmet>
-        <title>IML Tenis Jugadores</title>
+        <title>Liga de Capitanes Jugadores</title>
       </Helmet>
     </section>
   )

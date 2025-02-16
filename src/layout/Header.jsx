@@ -21,10 +21,7 @@ const Header = () => {
         </div>
       </div>
       <div className='navbar-center text-primary logo-main transition-all text-base'>
-        <Link
-          to='/'
-          className='font-bold'
-        >
+        <Link to='/'>
           <img
             src='/assets/images/logo.png'
             alt='logo'

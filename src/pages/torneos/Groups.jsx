@@ -58,7 +58,7 @@ const TournamentsGroup = ({ group }) => {
               >
                 <TitleRow
                   num={index + 1}
-                  image={`https://imltenis.com.ar/images/${item.image ? item.image : item.club_image}`}
+                  image={`https://ligadecapitanes.com.ar/images/${item.image ? item.image : item.club_image}`}
                   title={item.name}
                   link={`/equipos/${item.id}`}
                 />
@@ -94,9 +94,11 @@ const TournamentsGroup = ({ group }) => {
 
       <Labels labels={labels} />
 
-      <div className='text-center text-sm mt-3'>
-        🚀 <span className='opacity-70 whitespace-break-spaces'>{group.tournament_description}</span>
-      </div>
+      {group.tournament_descriptio && (
+        <div className='text-center text-sm mt-3'>
+          🚀 <span className='opacity-70 whitespace-break-spaces'>{group.tournament_description}</span>
+        </div>
+      )}
     </section>
   )
 }

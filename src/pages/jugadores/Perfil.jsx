@@ -52,7 +52,7 @@ const JugadoresContainer = () => {
       <Equipos id={info.id} />
 
       <Helmet>
-        <title>Liga de Capitanes {data[0].name}</title>
+        <title>{data[0].name} - Liga de Capitanes</title>
       </Helmet>
     </section>
   )
