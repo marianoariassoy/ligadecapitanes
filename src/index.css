@@ -15,6 +15,7 @@
 svg {
   fill: currentColor;
   stroke: currentColor;
+  /* color: #929191 */
 }
 input::placeholder {
   color: inherit;

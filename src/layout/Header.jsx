@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Bars, Instagram } from '../lib/icons'
+import { useEffect } from 'react'
 
 const Header = () => {
   const openMenu = () => {
@@ -8,6 +9,16 @@ const Header = () => {
     menu.classList.toggle('grid')
   }
 
+  useEffect(() => {
+    const nav = document.querySelector('.navbar')
+    nav.classList.remove('bg-base-100/90')
+    nav.classList.remove('backdrop-blur')
+    return () => {
+      nav.classList.add('bg-base-100/90')
+      nav.classList.add('backdrop-blur')
+    }
+  }, [])
+
   return (
     <div className='navbar w-full px-5 bg-base-100/90 backdrop-blur'>
       <div className='navbar-start'>
@@ -15,7 +26,7 @@ const Header = () => {
           className='dropdown'
           onClick={openMenu}
         >
-          <label className='cursor-pointer hover:text-primary text-secondary'>
+          <label className='cursor-pointer hover:text-primary '>
             <Bars />
           </label>
         </div>
@@ -29,7 +40,7 @@ const Header = () => {
           />
         </Link>
       </div>
-      <div className='navbar-end text-secondary'>
+      <div className='navbar-end '>
         <a
           href='https://www.instagram.com/ligadecapitanes'
           target='_blank'

@@ -21,10 +21,7 @@ const Fixture = ({ data, type }) => {
       )}
 
       <div className='overflow-x-auto text-sm'>
-        <table
-          className='table w-full'
-          summary='Fixture'
-        >
+        <table className='table w-full mb-3'>
           {filteredData.length > 0 && (
             <thead>
               <tr>
@@ -61,10 +58,7 @@ const Fixture = ({ data, type }) => {
 
           <tbody>
             {filteredData.map(item => (
-              <tr
-                key={item.id}
-                className={item.winner || item.status === 2 ? 'opacity-50 grayscale' : ''}
-              >
+              <tr key={item.id}>
                 <td
                   scope='row'
                   className='pl-0'
@@ -118,7 +112,7 @@ const Fixture = ({ data, type }) => {
           </tbody>
         </table>
         {filters !== null && filteredData.length === 0 && (
-          <div className='text-center text-primary mb-3 font-bold'>No hay series 🥲</div>
+          <div className='text-center text-primary font-medium'>No hay series 🥲</div>
         )}
       </div>
     </section>

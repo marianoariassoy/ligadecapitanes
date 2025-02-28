@@ -2,7 +2,7 @@ import useFetch from '../../hooks/useFetch'
 import Loader from '../../components/Loader'
 import Labels from '../../components/Labels'
 import TitleRow from '../../components/TitleRow'
-import { Bull } from '../../lib/icons'
+import { Bull, Info } from '../../lib/icons'
 
 const TournamentsGroup = ({ group }) => {
   const { data, loading } = useFetch(`/${group.type == 3 ? 'groups-stage2' : 'groups'}/teams/${group.id}`)
@@ -94,9 +94,17 @@ const TournamentsGroup = ({ group }) => {
 
       <Labels labels={labels} />
 
-      {group.tournament_descriptio && (
-        <div className='text-center text-sm mt-3'>
-          🚀 <span className='opacity-70 whitespace-break-spaces'>{group.tournament_description}</span>
+      {!group.tournament_description && (
+        <div className='flex gap-x-2 text-xs lg:text-sm mt-4 p-4 bg-white/10 rounded-lg'>
+          <span className='mt-1 text-primary'>
+            <Info />
+          </span>
+          <span className='whitespace-break-spaces'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minus officiis illo officia deserunt
+            eius quisquam, voluptate provident! Nesciunt ab error consectetur aperiam voluptates iusto molestias
+            voluptate accusamus ratione assumenda?
+            {group.tournament_description}
+          </span>
         </div>
       )}
     </section>

@@ -9,10 +9,10 @@ const SeriesMatches = ({ id }) => {
   return (
     <section className='fade-in'>
       <div className='overflow-x-auto text-sm'>
-        <table className='table w-full'>
+        <table className='table w-full mb-3'>
           <thead>
             <tr>
-              <th className='pl-0'>Enfrentamientos</th>
+              <th>Enfrentamientos</th>
               <th>Partido</th>
               <th>Score</th>
               <th>L/V</th>
@@ -22,7 +22,7 @@ const SeriesMatches = ({ id }) => {
           <tbody>
             {data.map(item => (
               <tr key={item.id}>
-                <td className='pl-0'>
+                <td>
                   <Link
                     to={`/jugadores/${item.playerhome1_id}`}
                     className='text-primary link-hover font-bold'
@@ -36,7 +36,9 @@ const SeriesMatches = ({ id }) => {
                   >
                     {item.playerhome2_name}
                   </Link>
-                  &nbsp;vs.&nbsp;
+
+                  {item.playerhome1_name ? <span>&nbsp;vs.&nbsp;</span> : <span>Sin disputar 🥲</span>}
+
                   <Link
                     to={`/jugadores/${item.playeraway1_id}`}
                     className='text-primary link-hover font-bold'
@@ -58,9 +60,7 @@ const SeriesMatches = ({ id }) => {
                     {item.result}
                   </div>
                 </td>
-                <td>
-                  <div className='opacity-70'>{item.status}</div>
-                </td>
+                <td>{item.status}</td>
               </tr>
             ))}
           </tbody>

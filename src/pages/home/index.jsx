@@ -20,20 +20,18 @@ const Welcome = () => {
     <>
       <div className='fade-in flex justify-center items-center text-center h-full'>
         <div
-          className='cursor-pointer mt-10 text-primary flex flex-col gap-y-3'
+          className='cursor-pointer text-primary flex flex-col gap-y-3 hover:text-white/80 transition-all'
           onClick={openMenu}
         >
-          <h1 className='text-7xl lg:text-8xl font-black flex flex-col'>
+          <h1 className='text-[4rem] leading-none lg:text-8xl font-black flex flex-col'>
             <span>Torneo</span>
-            <span>Clausura</span>
-            <span>
-              <span className='block lg:inline-block'>Yuka</span> 2024
-            </span>
+            <span>Apertura</span>
+            <span>2025</span>
           </h1>
         </div>
       </div>
 
-      <div className='fade-in-slow fixed h-screen w-screen left-0 top-0 -z-10'>
+      <div className='fade-in-slow fixed h-screen w-screen left-0 top-0 -z-10 blur-sm'>
         <video
           autoPlay
           playsInline
@@ -53,7 +51,7 @@ const Welcome = () => {
       </div>
 
       <Helmet>
-        <title>IML Tenis Liga de clubes de Buenos Aires</title>
+        <title>Liga de Capitanes Torneo Apertura 2025</title>
       </Helmet>
     </>
   )

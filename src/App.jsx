@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import ReactGA from 'react-ga4'
+import ReactGA from 'react-ga4'
 import Layout from './layout/Layout'
-// import Welcome from './pages/home'
+import Welcome from './pages/home'
 import Tournaments from './pages/torneos'
 import Teams from './pages/equipos'
 import Series from './pages/series'
@@ -12,7 +12,7 @@ import JugadoresProfile from './pages/jugadores/Perfil'
 import RankingCampeones from './pages/rankings/Campeones'
 import Jugadores from './pages/jugadores'
 // import TorneosAnteriores from './pages/torneos-anteriores'
-// import Reglamento from './pages/reglamento'
+import Reglamento from './pages/reglamento'
 import Nosotros from './pages/nosotros'
 import RegistrarUsuario from './pages/usuarios/RegistrarUsuario'
 import RestablecerPassword from './pages/usuarios/RestablecerPassword'
@@ -21,30 +21,28 @@ import Soon from './pages/Soon'
 import PageNotFound from './pages/PageNotFound'
 
 const App = () => {
-  // ReactGA.initialize('G-G1DBH0K86R')
+  ReactGA.initialize('G-0ZMTELW8GH')
 
   return (
     <BrowserRouter>
       <Layout>
         <Routes>
           <Route
-            path='/'
+            path='/presentacion'
             element={<Presentacion />}
           />
-          {/* <Route
+          <Route
             path='/'
             element={<Welcome />}
-          /> */}
+          />
           <Route
             path='/torneos/:id'
             element={<Tournaments />}
           />
-
           <Route
             path='/equipos/:id'
             element={<Teams />}
           />
-
           <Route
             path='/series/:id'
             element={<Series />}
@@ -60,11 +58,10 @@ const App = () => {
             element={<TorneosAnteriores />}
           /> */}
 
-          {/* <Route
+          <Route
             path='/reglamento'
             element={<Reglamento />}
-          />*/}
-
+          />
           <Route
             path='/clubes/:id'
             element={<Clubes />}
@@ -88,10 +85,6 @@ const App = () => {
           <Route
             path='/nosotros'
             element={<Nosotros />}
-          />
-          <Route
-            path='/presentacion'
-            element={<Presentacion />}
           />
           <Route
             path='/bienvenido'

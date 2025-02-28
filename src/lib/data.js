@@ -1,6 +1,6 @@
 export const categories = [
-  { name: 'Intermedia +35', url: '/soon' },
-  { name: 'Segunda +35', url: '/soon' }
+  { name: 'Intermedia +35', url: '/torneos/2' },
+  { name: 'Segunda +35', url: '/torneos/1' }
 ]
 
 export const menu = [
@@ -8,7 +8,7 @@ export const menu = [
   { name: 'Ranking de Campeones', url: '/ranking/campeones' },
   { name: 'Orden de juego', url: '/orden-de-juego' },
   { name: 'Jugadores', url: '/jugadores' },
-  { name: 'Reglamento', url: '/soon' },
+  { name: 'Reglamento', url: '/reglamento' },
   { name: 'Nosotros', url: '/nosotros' },
   { name: 'Regístrate', url: '/bienvenido' }
 ]

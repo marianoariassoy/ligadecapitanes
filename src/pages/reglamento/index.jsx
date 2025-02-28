@@ -17,205 +17,124 @@ const Reglamento = () => {
   const data = [
     {
       title: '',
-      text: `La presente liga de clubes se desarrolla desde el mes de marzo hasta el mes de diciembre en 2 torneos a jugarse los días sábados y domingos, según corresponda. Disputando en cada fecha 3 encuentros entre 2 equipos representantes de un club de tenis.`
+      text: `El presente reglamento pretende dejar aclaradas algunas situaciones y factores de ordenamiento a lo largo de los torneos. No obstante, ratificamos que respetar el objeto y los valores fundacionales tal como "la buena fe deportiva" en la declaración de aptitud o nivel de cada jugador, así como en el armado de los equipos, supera cualquier norma que pretendamos establecer.`
     },
     {
-      title: 'Modalidad de juego',
-      text: `En todas las categorías se jugará 1 single y 2 dobles.
-      Todos los partidos se disputarán al mejor de 3 sets con tie break. El tercer set será supertie break a 10
-      puntos con diferencia de dos.
-      Los 3 encuentros deberán disputarse en simultaneo comenzando al mismo tiempo, salvo clubes con 2 canchas (ver el reglamento). `
-    },
-    {
-      title: 'Puntuación',
-      text: `Cada encuentro ganado sumará un punto, es decir, ganando los 3 encuentros de la serie se sumarán 3 puntos al equipo vencedor, ganando 2 a 1 se sumarán 2 puntos al equipo vencedor y 1 punto al equipo rival, por lo que ahora todos los encuentros ganados suman puntos.
-      En caso de empate por puntos se desempatará por mayor cantidad de series ganadas, de persistir el empate, se desempatará por diferencia de sets y en el último caso diferencia de games. 
-      Todos los resultados podrán ser vistos en este sitio web.`
-    },
-    {
-      title: 'Formación',
-      text: `En las categorías en las cuales se disputen 1 partido de single y 2 partidos de dobles, de los 4 doblistas convocados para la serie el de mejor ranking deberá ser asignado obligatoriamente para jugar el doble 1.`
-    },
-    {
-      title: 'Pelotas',
-      text: `El equipo local será el encargado de proveer las pelotas para el encuentro. Se podrán usar tubos o pelotas sueltas hasta con un uso, de lo contrario el equipo rival podrá pedir cambio de pelotas o pedir WO. 
-      Las pelotas "con un uso" deben tener presión de pelota nueva y en cuanto a la felpa debe verse la marca de la
-      pelota completa.`
-    },
-    {
-      title: 'Formación Incompleta',
-      text: `Si el equipo completo o algún jugador no se presentara a jugar la fecha correspondiente (WO) deberá avisar con un mínimo de 48 hs. al capitán rival por escrito al chat de capitanes de WhatsApp, de lo contrario deberá correr con los gastos que correspondan al equipo local, como ser alquiler de canchas. 
-      Se podrá presentar WO tanto de single y/o de doble 2, pudiéndose disputar el resto de el o los parciales.`
-    },
-    {
-      title: 'Mala formación',
-      text: `En caso de incurrir en una mala formación de las parejas de dobles, los puntos perdidos serán exclusivamente los de los paciales involucrados (doble 1 y doble 2). El partido de single no se verá afectado por esta sanción, por lo que se mantendrá el resultado jugado en cancha.`
-    },
-    {
-      title: 'Días y Horarios',
-      text: `Las categorías de Damas jugarán los días sábados y domingos en un horario a determinar por el equipo local en cada oportunidad, que deberá ser los sábados entre las 13 y las 17 hs. y los domingos entre las 9 y las 17 hs.
-      La categoría tercera +45 jugarán los días sábados en un horario a determinar por el equipo local en cada oportunidad, que deberá ser entre las 13 y las 17 hs. 
-      El resto de las categorías jugarán los días domingos en un horario a determinar por el equipo local en cada oportunidad, que deberá ser entre las 9 y las 17 hs.
+      title: 'Inscripción de Equipos y Formaciones',
+      text: `Como norma general, los equipos deben estar integrados por jugadores +35 (mayores de 35 años o que cumplan esa edad durante el año calendario en el que se desarrolle el torneo). No obstante, se podrán incluir en la lista de buena fe jugadores menores de 35 años, siempre que sean +30 y en la medida que para integrar alguna formación cumplan con las siguientes condiciones:
+a) Solo podrán participar en uno de los tres puntos en juego de cada serie;
+b) Con carácter previo al inicio de los partidos, el capitán del equipo que haga uso de esta excepción deberá notificar al capitán del equipo rival en cuál de los tres puntos de la formación, participará/n el/los jugador/es comprendido/s en dicha franja etaria (+30 y sub35). Esa elección será libremente decidida por del capitán del equipo al que pertenecen los jugadores exceptuados;
+c) Las restantes posiciones de esa formación tendrán que ser cubiertas con jugadores +35;
+No se fijan topes respecto de la cantidad de jugadores que, bajo estas condiciones, se inscriban por equipo dentro de su lista de buena fe.
 
-      Los horarios deben informarse por el capitán del equipo local en el chat de capitanes de WhatsApp antes de las 17:00 hs. del miércoles de la semana correspondiente, de lo contrario se procederá a la quita de 1 punto de la serie al equipo local, sumándose 1 punto por cada día de atraso.`
-    },
-    {
-      title: 'Lista de buena fe',
-      text: `Deben ser enviadas por el capitán de cada equipo a la organización antes de la fecha informada de su cierre. Pasada dicha fecha, no se podrá realizar incorporación cambio alguno.
-      El mejor jugador del equipo deberá ir primero en la lista, siguiendo este criterio para el resto de la lista, siendo el último jugador el de más bajo nivel.
-      Es responsabilidad de los capitanes chequear que estén todos sus jugadores y colocados en la posición que consideren correcta antes del comienzo del torneo.  En la categoría con límite de edad, tercera +45, se considerará que el jugador está dentro de la categoría, al cumplir años dentro del año calendario de inicio del torneo.`
-    },
-    {
-      title: 'Cantidad de jugadores por equipo',
-      text: `El límite de integrantes de la lista de buena fe es de 18 jugadores.`
-    },
-    {
-      title: 'Equivalencias de niveles en otros torneos',
-      text: `Quinta Libre y Cuarta Damas: Jugadores categoría 125, C. 
-      Cuarta Libre, Tercera +45, 
-      Tercera Damas: Jugadores categoría 250 a 500, B2, B-. 
-      Tercera Libre, Segunda Damas: Jugadores categoría 500 a 750, B1 
-      Segunda Libre: Jugadores categoría 750 a 1000, A1, A2 
-      Primera Libre: Jugadores categoría 1000, Super A.
-      
-      Aquellos jugadores/as que participaron durante el torneo apertura 2024 en categoría primera o intermedia en cualquier otra liga, deben obligadamente jugar en Segunda Damas, Segunda Caballeros +35, o Segunda Libre.`
-    },
-    {
-      title: 'Resultados y Formación',
-      text: `Es obligatorio el envío de la planilla de
-      resultados o los resultados y formaciones al chat de capitanes de WhatsApp por parte del capitan del equipo
-      ganador en el transcurso de las 48 hs. del horario en que se haya disputado la serie, de lo contrario se
-      procedera a anular la serie.`
-    },
-    {
-      title: 'Instalaciones necesarias',
-      text: `El club deberá poder ofrecer para jugar un partido completo un mínimo de 2 canchas reglamentarias de tenis, vestuarios con comodidades suficientes.
-      Dichas canchas deberán ser de un mismo tipo de superficie, las que serán previamente aprobadas por esta asociación. 
-      Los 3 encuentros deberán disputarse en el mismo horario, con excepción de clubes con 2 canchas, ver apartado`
-    },
-    {
-      title: 'Tercer tiempo',
-      text: `Queda a voluntad del equipo local. Por parte de la organización recomendamos en lo posible llevarlo a cabo compartiendo los gastos del mismo, de esta manera fomentando la camaraderia entre los jugadores y equipos.`
-    },
-    {
-      title: 'Coaching',
-      text: `Los capitanes pueden intercambiar pareceres, comentarios
-      y/o efectuar directivas a sus jugadores, sobre el partido o cualquier otro tema que tenga interés. Si el capitán no estuviere dentro de la cancha acompañando a sus jugadores podrá ingresar en el momento de algún cambio de lado. Todos los comentarios deberán ser efectuados en un nivel de tono, forma y contenido que no moleste a ningún jugador rival. Cuando el capitán fuera jugador y se encontrará disputando un partido, podrá delegar esta función de coaching en otra persona. Y responderá en todo por ella.`
-    },
-    {
-      title: 'Feriados largos',
-      text: `Queda a criterio de la organización la programación de partidos en dichos días.`
-    },
-    {
-      title: 'En caso de lluvia',
-      text: `El equipo local deberá avisar como mínimo dos horas antes del horario del partido al chat de capitanes de WhatsApp que sus canchas están en condiciones para jugar. Pasado este límite, el equipo visitante no está en la obligación de aceptar ir a jugar.
-      La reprogramación se pasará para el final del torneo, salvo que los equipos involucrados acuerden y
-      decidan jugar antes, informando previamente a esta organización.`
-    },
-    {
-      title: 'Reinicio de serie reprogramada',
-      text: `Al reprogramarse una serie que no ha comenzado, por razones climáticas, y/o algún otro motivo, esta se
-      considerará como una serie nueva en todos los aspectos. Esto incluye la anulación de cualquier configuración
-      previa, tales como formaciones de equipos, selección de jugadores, y el orden de los partidos.`
-    },
-    {
-      title: 'Suspensión de un partido por falta de tiempo',
-      text: `En el caso de que el equipo local tenga que suspender el partido por compromisos de alquiler de canchas o similares, se considerará ese partido como abandono del equipo local. Se computará el resultado hasta ese momento y abandono local.`
-    },
-    {
-      title: 'Suspensión de partidos comenzados',
-      text: `Los partidos suspendidos por razones climáticas, y/o algún otro motivo, ya iniciados, serán reprogramados por esta asociación, con los parciales y los jugadores participantes. En caso de no presentase alguno de los jugadores en la fecha reprogramada, el parcial en disputa será considerado perdido por abandono, debiendo continuar los demás que faltasen terminar.`
-    },
-    {
-      title: 'Inpuntualidad de jugadores',
-      text: `El máximo de tolerenacia será de 15 minutos, pasados los cuales se considerará como abandono del partido. El equipo que abandone un partido, deberá avisar a la organización por escrito al chat de capitanes de WhatsApp, y deberá correr con los gastos que correspondan al equipo rival, como ser alquiler de canchas.`
-    },
-    {
-      title: 'Impuntualidad en el inicio de algún encuentro por falta de disponibilidad de cancha',
-      text: `Se sugiere a los clubes locales, establecer horarios entre series separados con un mínimo de dos horas entre una y otra. 
-      El horario fijado por el club local para la iniciación de la serie debe ser respetado. El tiempo detolerancia por parte de los jugadores visitantes para el inicio de la serie es de un máximo de media hora a partir del horario establecido. 
-      Transcurrido dicho límite temporal, y no habiendo posibilidades de comenzar la serie, los jugadores visitantes podrán anoticiar a su capitán de dicha circunstancia y éste último en caso de existir algún impedimento de sus jugadores para iniciar la serie con posterioridad a dicho horario, deberá informar del hecho en el chat de capitanes. Informada dicha circunstancia, la organización podrá comunicarse con el responsable del equipo local y evaluar si la demora obedece a un motivo atendible para exceptuar (espera de ambulancia por alguna afectación sufrida por algún jugador, lluvia o chaparrón que obligó a demorar la serie previa, o similares) y en caso contrario podrá el equipo visitante reclamar el punto, o los puntos que no comenzaron en tiempo y forma.
-      La organización siempre evaluará la circunstancia de atraso en el inicio de la serie y tendrá la decisión
-      final.`
-    },
-    {
-      title: 'Alquiler de canchas',
-      text: `La presente es una liga que reúne a la mayoría de clubes deportivos cuyos ingresos provienen del
-      cobro por el uso de dichos espacios. Cada jugador debe abonar cuando le toca jugar ya sea de local o de
-      visitante una suma fijada por la organización. Ese dinero se abona en el club donde se desarrolla la serie.
-      Aquel equipo que presente formación incompleta sin haber avisado con el mínimo de 48hs en el chat de capitanes, deberá abonar igualmente el costo completo en concepto de alquiler de cancha. Aquellos emprendimientos urbanísticos que no acostumbran a cobrar el alquiler por el uso de las canchas en razón que los propietarios la sostienen mediante el pago de las expensas, tienen el mismo derecho a cobrarlas y utilizar el dinero recaudado en las localias para afrontar el costo de su participación cuando jueguen de visitantes. Queda igualmente a criterio de los mismos el cobro a los equipos visitantes. La única manera de evitar el pago del alquiler de las canchas es avisando 48hs antes de la ausencia, en cuyo caso el club que será local tiene el tiempo suficiente de disponer de la misma para alquilarla a terceros.
-      El costo fijado en concepto de alquiler de cancha será actualizado periódicamente por esta organización con el fin de mantenerlo acorde a la necesidad de los clubes.`
-    },
-    {
-      title: 'Auditoria de lista de buena fe rivales',
-      text: `Cada capitán podrá objetar la ubicación de algún jugador rival en la lista de algún equipo rival. Para tal fin deberá informarlo por mail a hola@imltenis.com.ar, mencionando equipo, ubicación objetada, motivos y ubicación que considera correcta. No se tomarán reclamos por teléfono o WhatsApp. Tal objeción, será tomada de forma anónima.`
-    },
-    {
-      title: 'Suplentes naturales',
-      text: `Cualquier jugador de nivel inferior puede jugar en un nivel inmediatamente superior para un equipo perteneciente al mismo club del jugador. Si dicho jugador gana un partido en un nivel superior y vuelve a ser convocado en ese nivel, no podrá participar más en el nivel inferior.`
-    },
-    {
-      title: 'Dos o más equipos por división',
-      text: `Cuando un club tenga dos o más equipos en la misma categoría, éstos se considerarán como equipos distintos, los jugadores de estos equipos no podrán jugar en ningún otro equipo de la misma categoría a la que pertenezcan.`
-    },
-    {
-      title: 'Excepciones a la programación',
-      text: `Cuando por coincidencia de fechas con
-      la realización del circuito de tenis algún club tenga compromisos asumidos con anterioridad, podrá solicitar a  esta asociación, a considerar, la no programación de partidos, la misma deberá ser presentada con anterioridad a  la realización de la programación oficial e indicará fechas ciertas de los compromisos asumidos.
-      Esta posibilidad solo podrá ser concedida por una vez, por torneo, y de manera excepcional. 
-      Se hace saber que NO  es obligatorio para la organización el otorgar dicha excepción pudiendo siempre la organización no hacer lugar al pedido. 
-      En caso que algún club no haya hecho uso de dicha posibilidad dentro de un campeonato, pero que la organización encuentre dificultades para otorgarles dicha excepción habida cuenta de retrasos que complican el normal  desarrollo del torneo, la organización podrá negar dicha posibilidad mediante una simple notificación por razones organizativas, la cual será inapelable.`
-    },
-    {
-      title: 'Clubes con 2 canchas',
-      text: `En caso de disputarse una serie en un club con  dos canchas, cada jugador solo podrá disputar un encuentro en una misma serie. La serie se desarrollará en dos tandas que deben jugarse una a continuación de la otra, sin excepcion. La segunda tanda deberá comenzar no despues de las 17hs.
+Ningún jugador podrá estar incluido en forma simultánea en la lista de buena fe de dos o más equipos distintos dentro de un mismo torneo. No obstante, un jugador que participa en una categoría inferior podrá jugar en otra inmediata superior -dentro del mismo calendario del torneo-, solo para completar la formación de un equipo que represente al mismo barrio, club o country al que pertenece su equipo original. Nunca el reemplazo podrá realizarse en sentido inverso, es decir de la categoría más alta a la más baja. A los fines de su registración sistémica, los suplentes naturales provenientes de una categoría más baja, además de figurar en la nómina inscripta para su equipo original, deberán agregarse a continuación del último jugador que conforma la lista de buena fe del equipo participante en la categoría más alta.
 
-      Siempre debe programarse la serie evitando disputar en primer turno el doble 2 sin estar acompañado del doble 1, de esta manera evitando posibles WO de doble 1 de ultimo momento, que de esa manera anularía la serie. `
-    },
-    {
-      title: 'Ascenso de equipos',
-      text: `El sistema de ascenso será personalizado para cada categoría, adaptándose a la cantidad de equipos y al formato de competencia específico. Este enfoque garantiza una experiencia de torneo más justa y equitativa, reflejando las necesidades únicas de cada categoría y promoviendo un ambiente competitivo saludable para todos.
+Los equipos que participen por primera vez podrán anotarse en la categoría que crean que es la adecuada a su nivel de juego. Sin perjuicio de ello, la organización podrá recomendar, conforme a la expectativa de fixture a armar y en conocimiento del nivel de juego de cada torneo, la inscripción en una categoría diferente. Para la conformación de las zonas al momento del sorteo del fixture, si fuese necesaria la inclusión de algún equipo, se tendrá en cuenta el historial de torneos anteriores.
 
-      Los equipos ascendidos se requerirá la participación de todos los jugadores con excepción de los jugadores que no hayan aportado ningún punto, para estos el ascenso será optativo.
-    `
+Tal el espíritu fundacional de esta Liga basado en la “Buena fe deportiva”, se apela a la “Buena formación”, en cuanto a la declaración de competitividad de cada jugador integrante de un equipo como a la conformación del equipo para cada jornada y su participación en la categoría más acorde a su nivel real, por lo que una buena formación es aquella en la que se sigan las siguientes reglas:
+
+- Como singlista o como doblistas pueden presentarse cualquiera de los cinco jugadores listados para participar de una serie, en la medida que cumplan con el requisito de partidos mínimos jugados previamente, en caso de que ello corresponda a la instancia que se está disputando.
+
+- En caso de incluirse a un jugador +30 pero menor de 35, su capitán podrá ubicarlo en cualquiera de los tres partidos correspondientes a la serie en disputa (Single, Doble 1 o Doble 2), previa notificación de su decisión al capitán del equipo rival. Solo podrá hacerse uso de esta excepción en uno y solo uno de los tres puntos en juego. Esto implica que como máximo, solo dos jugadores menores de 35 podrán ser de la partida dentro de la formación de su equipo para una serie en particular.
+
+- Los restantes jugadores podrán ubicarse en cualquiera de las posiciones no especificadas.
+
+- Las edades a computar a los fines de verificar los requisitos previos, serán las que se cumplan dentro del año calendario en el que se está desarrollando el torneo.
+
+Los jugadores de los equipos que se presenten para jugar la Final y la Semifinal de cada categoría o copa deberán haber jugado como mínimo una fecha durante las etapas previas del torneo, y las listas con la integración de su formación para esos cruces deberán ser presentadas a la Organización con 24 horas de antelación al inicio de la serie, en la fase de definición de los “playoff”. Los capitanes de esos equipos tendrán derecho a requerir la formación declarada por sus rivales, por lo que -encontrándose anoticiados de la misma- una vez iniciado el primero de los partidos perderán toda posibilidad de reclamo o impugnación.
+
+Similar procedimiento deberá cumplirse al inicio de las restantes series que se jueguen en las fases de “round robin” y en las de “play off” anteriores a las semifinales y finales de cada copa: al momento de presentarse en cancha -y previo al inicio de los partidos- los capitanes de cada equipo deberán intercambiar una planilla con el detalle de los jugadores seleccionados para integrar sus formaciones, con las formalidades que la Organización establezca. 
+
+Todo jugador que haya sido o sea jugador de primera o profesor debe estar declarado en la etapa de inscripción y su inclusión será sometida a aprobación de la Organización antes del inicio del torneo. De ser autorizado, no podrá jugar el punto de singles y solo podrá participar en la categoría más alta habilitada.
+
+En la etapa de inscripción y al momento de completarse la lista de buena fe, deberán incluirse los datos completos de cada jugador (nombre, DNI, fecha de nacimiento, celular y correo electrónico). En la medida que el sistema lo permita, se podrá requerir también acompañar dicha información con una foto de cada inscripto.
+
+Cuando un equipo quede imposibilitado o con dificultad de armar y presentar su formación completa para una serie, por razones de fuerza mayor, y su capitán considere que tiene jugadores que no han participado y/o que no continuarán jugando el torneo, podrá solicitar a la Organización su reemplazo por jugadores suplentes, reemplazo que será definitivo durante el torneo en curso.
+
+Si algún equipo se retirase antes del sorteo del fixture, se le reintegrará el importe abonado en concepto de inscripción. Con posterioridad a esa fecha, la Organización podrá desestimar cualquier reclamo por devolución total o parcial del monto recibido. 
+
+En el momento del sorteo se establecerá para cada equipo la cantidad de partidos que jugará como local y visitante, los que en tal sentido deberán ser, en la medida de lo posible, por partes iguales.`
+    },
+
+    {
+      title: 'Provisión de pelotas',
+      text: `Para cada serie se deberán usar pelotas nuevas, en tubos o sueltas, salvo acuerdo en contrario entre los capitanes. El equipo visitante será el encargado de proveer las pelotas para cada encuentro.
+
+En caso de acordarlo entre capitanes, los tubos o pelotas sueltas que no sean a estrenar, podrán contar con hasta con un uso, entendiendo a tal fin que deben mantener la presión y el pique de una pelota nueva, mientras que la felpa debe permitir que se aprecien con absoluta claridad e integridad el logotipo y/o el isotipo de la marca.
+
+Se recomienda que el capitán del equipo visitante envíe imágenes a su par local que den cuenta del real estado de las pelotas antes de su visita al club o barrio anfitrión, llevando siempre al encuentro tres juegos de tres pelotas nuevas como alternativa en caso que al momento de comenzar a jugar no se cumplan las condiciones indicadas en el párrafo anterior, y el capitán del equipo local así lo solicite.
+`
     },
     {
-      title: 'Descenso de equipos',
-      text: `Los equipos que hayan terminado en ultimo lugar en sus respectivos grupos tendrán derecho de descender a una categoría inmediatamente inferior con todos sus jugadores, con excepción de los jugadores  que hayan finalizado el torneo con una diferencia de partidos ganados +5 o superior.`
+      title: 'Modalidad de los partidos',
+      text: `El resultado de cada encuentro o cruce del fixture se definirá en favor del equipo que resulte ganador en al menos dos de los tres parciales a jugar en esa fecha. Estos parciales son los partidos que se jugarán de acuerdo a la siguiente modalidad: un (1) single y dos (2) dobles.
+
+Todos los partidos se disputarán a dos (2) sets, cada uno con definición en Tie Break a siete (7) puntos con diferencia de dos (2). En caso de empate en un set por lado se dará una definición por Super Tie Break a diez (10) puntos con diferencia de dos.
+
+La clasificación general o de alguna zona dentro de una etapa específica de la competencia se definirá a favor del equipo que haya ganado mayor cantidad de series. Todo empate en puntos dentro de esa clasificación se resolverá de acuerdo a la mayor cantidad de parciales (partidos de cada serie) ganados dentro de esa etapa en primer lugar, o dentro de toda la competencia en general, en caso de persistir la igualdad. De mantenerse la paridad, se considerará la cantidad de sets ganados, en primer término, y la de los games ganados si subsiste la condición de igualdad. A estos fines, los super tie breaks jugados se considerarán equivalentes a un set. Si considerados todos los criterios anteriores no se logra desempatar la situación, se atenderá al último resultado directo entre los equipos igualados, salvo que el empate se de entre más de dos equipos y los resultados directos entre ellos arrojen idéntico número de victorias, caso en el que deberá recurrirse al sorteo como método de definición.
+
+La forma de definición y los criterios para establecer los ascensos y descensos entre categorías, dependerán de la cantidad de equipos inscriptos en cada edición y serán detallados en el anexo respectivo que forma parte integrante del presente reglamento, reservándose la Organización -con carácter previo al inicio de cada competencia-, la potestad de ascender o descender de categoría a equipos o jugadores, tanto de oficio como a pedido de sus capitanes (Anexo I: El Campeonato).
+
+En el caso que un equipo se presente incompleto, podrá jugar dos de los tres parciales dando por perdido el Doble 2 o el Single. Recomendamos en principio el acuerdo entre los capitanes sobre qué partido se da de baja, la regla como tal aplica si no hay acuerdo.
+
+Los tres partidos de una fecha deben jugarse simultáneamente y en el mismo lugar, siendo el día de la semana previsto para ello el sábado por la tarde, en el horario que el equipo local informó antes del inicio del torneo. Si por algún motivo el comienzo de la serie se retrasa, no es necesario que los tres puntos comiencen en simultáneo, eligiendo el equipo visitante cuál de los puntos comienza primero. Como en todos los casos recomendamos la voluntad de acordar entre los capitanes de dicho encuentro la solución más viable a fin de que la fecha pueda jugarse con normalidad.
+
+Como excepción a la regla anterior, se permitirá disputar una serie en dos tandas (las que deberán jugarse una inmediatamente a continuación de la otra) cuando el equipo local cuente con solamente dos canchas disponibles -y haya notificado con suficiente anterioridad a la Organización de esta limitación-, descartándose de plano la posibilidad de que cualquier jugador dispute más de un partido dentro de una misma serie.
+
+La serie suspendida o interrumpida por causa de fuerza mayor, debe reprogramarse de común acuerdo entre los capitanes en cuanto a la fecha y hora en que se jugará o completará. Se recomienda su realización lo más pronto posible para llegar a completar el torneo de acuerdo con los plazos previstos. En caso que la razón alegada no alcanzara para considerarse de fuerza mayor, recomendamos la buena voluntad entre los equipos para poder darle un tratamiento similar al de aquellos supuestos en que sí lo fuera.
+
+Las reprogramaciones generales de fechas se harán al final del calendario originalmente previsto para cada torneo, sin perjuicio de la posibilidad de adelantar alguna serie que, por acuerdo entre los capitanes, pueda jugarse en día domingo o feriado, entre semana por la noche, o aprovechando cualquier fecha libre del cronograma.  
+
+En el caso que la definición de una serie no pueda concretarse dentro de los plazos previstos para la finalización del torneo o de la etapa correspondiente, la Organización podrá establecer su resolución por sorteo.
+
+Se deberá dar aviso con la mayor anticipación sobre la posible suspensión de fecha por quien la solicitara (48 horas como mínimo). En todos los casos deberá comunicarse a los capitanes restantes de modo de reordenar el torneo. Un tratamiento similar recomendamos que se otorgue en caso de que deba cambiarse el horario de una fecha, o ante la imposibilidad de presentar una formación completa.
+
+La programación de partidos en fines de semana largos queda a criterio de la organización. Como se mencionara previamente, es una ocasión propicia para reprogramar partidos suspendidos y recuperar fechas atrasadas.
+
+La serie reprogramada que no hubiera comenzado al momento de su suspensión por razones de fuerza mayor, será considerará como una serie nueva a todos los fines, pudiendo modificarse tanto la selección de los jugadores como la formación de cada equipo. En cambio, si hubieran sido suspendidos luego de ya iniciados, al momento de la reprogramación deberán reiniciarse con los resultados parciales, los jugadores participantes y la misma formación con la que comenzaron originalmente. El partido en el que un equipo a la fecha de reprogramación no pueda presentar alguno de los jugadores que fueron de la partida inicial, le será dado por perdido computando el resultado registrado hasta ese momento.
+
+Si un equipo local se encontrara frente a la necesidad suspender un partido por compromisos que afecten la posibilidad de seguir utilizando sus canchas, se computará el resultado hasta ese momento y abandono local.
+
+En cualquiera de los casos mencionados en los dos párrafos previos, al equipo ganador se le sumarán todos los sets y games restantes que resulten necesarios para completar el tanteador a su favor.
+`
     },
     {
-      title: 'Descenso de jugadores',
-      text: `Un jugador podrá descender a una categoría inmediatamente inferior de forma voluntaria al inicio del torneo cuando su diferencia de partidos ganados sea -3 o inferior`
+      title: 'Roles del Capitán de Equipo',
+      text: `Cada equipo nombrará a uno de sus integrantes como Capitán. Este será el referente del Equipo y tendrá las siguientes tareas:
+
+- Explicar a sus jugadores los principios fundacionales y espíritu del Torneo, así como las reglas de juego y de participación
+- Elaborar las listas de buena fe y cargarlas en la web
+- Inscribir el equipo en la categoría que corresponda 
+- Abonar la inscripción correspondiente
+- Informar a la Organización el horario en el que se programarán los partidos de su equipo a jugarse en condición de local
+- Verificar que se cumplan todas las condiciones reglamentarias tanto de local como de visitante
+- Cumplir y hacer cumplir todos los protocolos previos al encuentro
+- Cargar los resultados de cada serie (Equipo ganador) y confirmarlos (Equipo perdedor) como máximo hasta 3 días luego de realizado el encuentro, a fin de no complicar el buen desarrollo del torneo
+- Ambos capitanes deberán enviar fotos del juego durante la serie, así como de ambos equipos reunidos al final o comienzo del partido, para ser publicados en las redes sociales de la liga.
+
+En caso de considerarlo necesario, la Organización podrá requerir el cambio de capitanía o bien, solicitar la designación de un subcapitán, a efectos de facilitar la comunicación y gestionar de manera más diligente las cuestiones organizativas de cada serie a desarrollarse. Es requisito para ello que el subcapitán sea un integrante de la lista de buena fe del equipo al que se le efectúe este planteo.
+
+Se recomienda que, durante el desarrollo del juego, no se intercambie con los jugadores pareceres, comentarios y/o se efectúen directivas. Toda interacción entre el capitán y sus jugadores deberá realizarse en los momentos en que el juego, por su propia dinámica, se encuentre detenido, por ejemplo, durante los cambios de lado, debiendo ser siempre efectuadas en tono discreto, respetuoso y sin distraer o molestar a ninguno de los jugadores que se hallan disputando el encuentro en esa cancha u otras aledañas.
+
+Salvo acuerdo en contrario entre los capitanes, no está permitido el ingreso dentro de la cancha de los capitanes o de terceros ajenos a los jugadores designados a la misma -excepto para atención médica o fisioterapéutica-, en ningún momento del partido, ni siquiera durante los cambios de lados.
+`
     },
     {
-      title: 'Ascensos de jugadores',
-      text: `La organización ostenta el legítimo derecho de ascender a cualquier jugador cuyo nivel sobrepase ampliamente la categoría correspondiente, así como a aquellos que posean registros de haber participado y/o ganado torneos en categorías considerablemente superiores en el tiempo reciente, hasta dos años, con la posible quita de puntos de la serie en reclamo.`
+      title: 'Tercer Tiempo',
+      text: `A fin de consolidar los valores explicitados de esta Liga, se incentiva fervientemente a mantener la costumbre del Tercer Tiempo luego de cada encuentro. La idea es compartir un momento de distensión y camaradería, un cordial intercambio para poder compartir experiencias y socializar. Se recomienda mantener la simplicidad de la ocasión, y dividir los costos en partes iguales.`
     },
     {
-      title: 'Playoffs',
-      text: `En estas estapas solo podrán participar los jugadores que hayan disputado al menos una serie en instancias previas en la categoría corresponiente en el actual torneo, a excepción de la categoría Primera Libre, donde esta regla no se aplicará.`
-    },
-    {
-      title: 'Penalizaciones',
-      text: `A. La organización se reserva el derecho de sancionar y/o
-      advertir a cualquier jugador que agreda física o verbalmente a cualquier miembro de la liga. B. Cualquier
-      inconveniente surgido durante el partido deberá ser resuelto por los participantes del mismo, y en caso de no
-      lograr una solución, se permitirá la intervención de terceros, siempre y cuando exista un acuerdo previo entre los participante involucrados.`
-    },
-    {
-      title: 'Capitanía',
-      text: ` La organización se reserva el derecho a solicitar cambio de capitanía en caso de considerarlo necesario o bien de solicitar la incorporación de un subcapitan al chat de capitanes en reemplazo del capitán, a efectos de facilitar la comunicación y gestionar de manera más diligente las cuestiones administrativas referentes a la organización de cada serie a desarrollarse. Este sub capitán/a deberá ser un jugador/a integrante del plantel.`
-    },
-    {
-      title: 'Límite temporal de reclamos',
-      text: `Cualquier reclamo que verse sobre cualquier situación que pueda darse desde el comienzo de la competición y hasta su finalización, y que a criterio de alguna de las partes considerase que infringe este reglamento, dicho reclamo deberá ser expresado a la organización dentro de las 48horas de haberse jugado la serie en cuestión.
-      Luego de ese tiempo y sin excepción, cualquier reclamo quedará sin efecto.`
-    },
-    {
-      title: 'Otras cuestiones',
-      text: `La organización se reserva el derecho a modificar el presente reglamento cuando sea imperioso establecer, regular o fijar conductas o acciones que puedan generar conflictos o diversas interpretaciones con el objeto de conducir a un mejor desenvolvimiento de las diversas competiciones.
-      Para el supuesto caso que pudiera darse una laguna en la normativa o posible doble interpretación, esta
-      organización resolverá puntualmente la cuestión en conflicto de acuerdo a su leal saber y entender, notificando a las partes que pudieran estar involucradas. La decisión será inapelable por las partes que pudieran estar involucradas y generará un precedente que será utilizado para aclaración de las posibles normas en conflicto.`
+      title: 'Reglas de Juego',
+      text: `Los partidos se regirán por las reglas de juego aprobadas por la Asociación Argentina de Tenis (AAT) y este Reglamento. El Torneo se iniciará en todas sus categorías y divisiones en las fechas que semestralmente se establezcan.
+
+Cuando un Barrio o Club tenga dos o más equipos en la misma división, éstos se considerarán como Equipos distintos. Los jugadores de estos equipos no podrán jugar en ningún otro de la misma división a la que pertenezcan.
+
+La Organización se encuentra facultada para sancionar y/o advertir a cualquier jugador o equipo que incumpla las reglas de la Liga, o que desarrolle conductas que atenten contra el armonioso y pacífico desenvolvimiento de las series. Cualquier inconveniente surgido durante el partido deberá ser resuelto por los participantes del mismo, y en caso de no lograr una solución, se permitirá la intervención de terceros, siempre y cuando exista un acuerdo previo entre los capitanes de los equipos involucrados.
+
+Cualquier reclamo que verse sobre situaciones que puedan darse desde el comienzo de la competición y hasta su finalización, y que a criterio de alguna de las partes deba considerase que infringe este reglamento, deberá ser expresado a la Organización dentro de las 48 horas de finalizada la serie en cuestión. Caso contrario, el reclamo quedará sin efecto.
+
+La Organización se reserva el derecho a modificar el presente reglamento cuando sea imperioso establecer, regular o fijar conductas o acciones que puedan generar conflictos o diversas interpretaciones, con el objeto de conducir a un mejor desenvolvimiento de las diversas competiciones. Frente a aspectos que no se encuentren específicamente normados o que razonablemente pudieran prestarse a una ambigua interpretación, se tomará una determinación que resuelva la cuestión en conflicto en base a la opinión mayoritaria de los capitanes integrantes de la Comisión Directiva convocados a tratar el tema, notificando su decisión a los capitanes de los equipos afectados, la cual será inapelable y generará un precedente a considerar ante otros conflictos asimilables y futuras modificaciones de este reglamento.
+`
     }
   ]
 
@@ -230,11 +149,9 @@ const Reglamento = () => {
   return (
     <section className='fade-in flex flex-col gap-y-6'>
       <Header
-        title='Reglamento IML Tenis'
+        title='Reglamento Apertura 2025'
         emoji='📝'
       />
-
-      <span className='block opacity-70 text-sm text-center'>Ultima actualización 4 de Noviembre 2024.</span>
 
       <div>
         <Buscar
@@ -252,7 +169,7 @@ const Reglamento = () => {
       </div>
 
       <Helmet>
-        <title>IML Tenis Reglamento</title>
+        <title>Reglamento - Liga de Capitanes</title>
       </Helmet>
     </section>
   )

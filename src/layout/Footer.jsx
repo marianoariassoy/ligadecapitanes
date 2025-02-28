@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div className='p-6 mt-6'>
-      <div className='text-sm text-center flex flex-col justify-center items-center text-secondary'>
+      <div className='text-sm text-center flex flex-col justify-center items-center'>
         <div>
           <span className='font-bold'>Liga de capitanes {year}</span>
         </div>
