@@ -12,8 +12,6 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
   const data = (await response.json()) as Table[];
   if (!data) return null;
 
-  console.log(data);
-
   const labels = [
     {
       name: "Equipo",
@@ -102,18 +100,16 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
 
       <Labels labels={labels} />
 
-      <div className="flex gap-x-2 text-sm p-3 lg:px-6 bg-black/10 rounded-xl">
-        <span className="text-primary mt-1">
-          <Info />
-        </span>
-        <span className="text-secondary whitespace-break-spaces">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          soluta dolore ut quo modi inventore possimus, expedita praesentium
-          illum et, laboriosam, eligendi esse vero culpa accusantium
-          reprehenderit enim placeat eum.
-          {group.tournament_description}
-        </span>
-      </div>
+      {group.tournament_description ? (
+        <div className="flex gap-x-2 text-sm p-3 lg:px-6 bg-black/10 rounded-xl">
+          <span className="text-primary mt-1">
+            <Info />
+          </span>
+          <span className="text-secondary whitespace-break-spaces">
+            {group.tournament_description}
+          </span>
+        </div>
+      ) : null}
     </section>
   );
 };

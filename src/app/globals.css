@@ -30,7 +30,7 @@
   }
   to {
     position: sticky;
-    background-color: rgba(37, 37, 37, 0.9);
+    background-color: rgba(37, 37, 37, 0.6);
     backdrop-filter: blur(10px);
   }
 }
@@ -81,7 +81,6 @@
     filter: blur(5px);
   }
 }
-
 .animate-fade-in-out {
   animation: fade-in-out 0.8s infinite;
 }
