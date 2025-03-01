@@ -16,7 +16,8 @@ export const metadata: Metadata = {
     default: "Liga de Capitanes",
     template: "%s - Liga de Capitanes",
   },
-  description: " ",
+  description:
+    "Nuestra Liga está conformada por un grupo de jugadores de tenis de Clubes, Barrios y Countries de Zona Norte de Buenos Aires, reunidos con el objeto de disfrutar y compartir un espacio para la práctica competitiva y amateur de nuestro deporte.",
   icons: {
     icon: "/assets/favicon.png",
     shortcut: "/assets/favicon.png",
@@ -28,7 +29,8 @@ export const metadata: Metadata = {
     locale: "es_AR",
     url: "https://ligadecapitanes.com.ar",
     title: "Liga de Capitanes",
-    description: " ",
+    description:
+      " Nuestra Liga está conformada por un grupo de jugadores de tenis de Clubes, Barrios y Countries de Zona Norte de Buenos Aires, reunidos con el objeto de disfrutar y compartir un espacio para la práctica competitiva y amateur de nuestro deporte.",
     images: [
       {
         url: "/assets/ligadecapitanes.jpg",

@@ -25,6 +25,14 @@ export async function generateMetadata({
       url: `https://ligadecapitanes.com.ar/torneos/${id}`,
       title: `${data[0].name} ${data[0].season}`,
       description: `Torneo ${data[0].name} ${data[0].season} de la Liga de Capitanes`,
+      images: [
+        {
+          url: "/assets/ligadecapitanes.jpg",
+          width: 500,
+          height: 500,
+          alt: data[0].name,
+        },
+      ],
     },
   };
 }

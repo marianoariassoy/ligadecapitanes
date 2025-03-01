@@ -20,13 +20,13 @@ export async function generateMetadata({
 
   return {
     title: data[0].name,
-    description: `Perfil del club ${data[0].name} de la Liga de Capitanes`,
+    description: `Perfil de la sede ${data[0].name} de la Liga de Capitanes`,
     openGraph: {
       type: "website",
       locale: "es_AR",
       url: `https://ligadecapitanes.com.ar/clubes/${id}`,
       title: data[0].name,
-      description: `Perfil del club ${data[0].name} de la Liga de Capitanes`,
+      description: `Perfil de la sede ${data[0].name} de la Liga de Capitanes`,
       images: [
         {
           url: data[0].image,
