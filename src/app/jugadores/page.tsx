@@ -11,7 +11,7 @@ const Page = async () => {
 
   return (
     <section className="fade-in flex flex-col gap-y-6 max-w-md mx-auto">
-      <Title title="Jugadores" emoji="🧑👩" />
+      <Title title="Jugadores" emoji="🧑" />
       <Filter data={data} />
     </section>
   );
