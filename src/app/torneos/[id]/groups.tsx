@@ -12,7 +12,7 @@ const groups = async ({ id_tournament }: { id_tournament: string }) => {
   if (!data) return null;
 
   return data.map((item) => (
-    <div key={item.id} className="flex flex-col gap-y-6">
+    <div key={item.id} className="flex flex-col lg:gap-y-6">
       <h1 className="italic font-black text-center text-primary">
         {item.name}
       </h1>

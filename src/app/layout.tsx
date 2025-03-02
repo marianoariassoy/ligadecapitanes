@@ -47,7 +47,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  ReactGA.initialize("G-G1DBH0K86R");
+  ReactGA.initialize("G-0ZMTELW8GH");
 
   return (
     <html lang="es">
@@ -63,7 +63,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4">{children}</main>
         <Footer />
-        <div className="fixed top-0 left-0 bg-[url('/assets/background-2.jpg')] h-screen w-screen -z-10 opacity-10"></div>
+        <div className="fixed top-0 left-0 bg-[url('/assets/background.webp')] h-screen w-screen -z-10 opacity-10"></div>
       </body>
     </html>
   );
