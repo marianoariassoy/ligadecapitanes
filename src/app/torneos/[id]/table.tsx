@@ -18,13 +18,14 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
       value: "",
     },
     {
-      name: "Pts.",
-      value: "Puntos (parciales)",
-    },
-    {
       name: "SG",
       value: "Series ganadas",
     },
+    {
+      name: "P",
+      value: "Parciales ganados",
+    },
+
     {
       name: "DS",
       value: "Diferencia de sets",
@@ -69,9 +70,9 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
                   />
                 </td>
                 <td>
-                  <span className="font-smibold">{item.match_won}</span>
+                  <span className="font-bold">{item.series_won}</span>
                 </td>
-                <td>{item.series_won}</td>
+                <td>{item.match_won}</td>
                 <td>{item.sets}</td>
                 <td>{item.games}</td>
                 <td>{item.series_total}</td>
