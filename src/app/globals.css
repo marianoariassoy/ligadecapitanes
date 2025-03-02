@@ -9,40 +9,6 @@
   --background: #252525;
 }
 
-@supports (animation-timeline: scroll()) {
-  .logo-animation {
-    animation: logo forwards;
-    animation-timeline: scroll();
-    animation-range: 0 50px;
-  }
-  .header-animation {
-    animation: stick forwards;
-    animation-timeline: scroll();
-    animation-range: 0 50px;
-  }
-}
-
-@keyframes stick {
-  from {
-    position: sticky;
-    background-color: transparent;
-    backdrop-filter: blur(0);
-  }
-  to {
-    position: sticky;
-    background-color: rgba(37, 37, 37, 0.6);
-    backdrop-filter: blur(10px);
-  }
-}
-@keyframes logo {
-  from {
-    width: 100px;
-  }
-  to {
-    width: 70px;
-  }
-}
-
 .table thead tr th {
   text-align: left;
   color: var(--secondary);
@@ -54,7 +20,6 @@
   padding-top: 1rem;
   padding-right: 1rem;
 }
-
 .fade-in {
   animation: fade-in 0.3s ease-in-out;
 }
@@ -69,7 +34,6 @@
     opacity: 1;
   }
 }
-
 .blur-out {
   animation: blur-out 1s ease-in-out forwards;
 }
