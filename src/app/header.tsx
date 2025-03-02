@@ -35,7 +35,7 @@ const Header = () => {
         </div>
         <div>
           <a
-            href="https://www.instagram.com/imltenis/"
+            href="https://www.instagram.com/ligadecapitanes/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary"
