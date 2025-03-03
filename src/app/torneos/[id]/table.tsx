@@ -1,7 +1,8 @@
 import Labels from "@/components/Labels";
 import Item from "@/components/Item";
-import { Bull, Info } from "@/lib/icons";
+import { Bull } from "@/lib/icons";
 import { Group, Table } from "@/types";
+import Info from "./info";
 
 const Tabla = async ({ group, type }: { group: Group; type: number }) => {
   const response = await fetch(
@@ -102,14 +103,7 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
       <Labels labels={labels} />
 
       {group.tournament_description ? (
-        <div className="flex gap-x-2 text-sm p-3 lg:px-6 bg-black/10 rounded-xl mb-3">
-          <span className="text-primary mt-1">
-            <Info />
-          </span>
-          <span className="text-secondary whitespace-break-spaces">
-            {group.tournament_description}
-          </span>
-        </div>
+        <Info text={group.tournament_description} />
       ) : null}
     </section>
   );
