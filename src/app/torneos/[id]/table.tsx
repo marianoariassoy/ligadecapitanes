@@ -46,7 +46,7 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
   ];
 
   return (
-    <section className="flex flex-col gap-y-3">
+    <section className="flex flex-col gap-y-3 text-sm">
       <div className="overflow-x-auto whitespace-nowrap">
         <table className="w-full table mb-3">
           <thead>
