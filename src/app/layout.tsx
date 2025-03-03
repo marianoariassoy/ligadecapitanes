@@ -57,13 +57,13 @@ export default function RootLayout({
         <meta name="theme-color" content="#252525" />
       </head>
       <body
-        className="bg-background text-foreground min-h-screen flex flex-col"
+        className="bg-background text-foreground min-h-screen flex flex-col b"
         style={{ fontFamily: montserrat.style.fontFamily }}
       >
         <Header />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4">{children}</main>
         <Footer />
-        <div className="fixed top-0 left-0 bg-[url('/assets/background.webp')] h-screen w-screen -z-10 opacity-20"></div>
+        <div className="fixed bg-scroll top-0 left-0 bg-[url('/assets/background.webp')] h-full w-screen -z-10 opacity-20"></div>
       </body>
     </html>
   );

@@ -46,7 +46,7 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
 
   return (
     <section className="flex flex-col gap-y-3">
-      <div className="overflow-x-auto text-sm">
+      <div className="overflow-x-auto text-sm whitespace-nowrap">
         <table className="w-full table mb-3">
           <thead>
             <tr>
@@ -102,7 +102,7 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
       <Labels labels={labels} />
 
       {group.tournament_description ? (
-        <div className="flex gap-x-2 text-sm p-3 lg:px-6 bg-black/10 rounded-xl">
+        <div className="flex gap-x-2 text-sm p-3 lg:px-6 bg-black/10 rounded-xl mb-3">
           <span className="text-primary mt-1">
             <Info />
           </span>
