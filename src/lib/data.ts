@@ -14,6 +14,6 @@ export const menu = [
   { name: "Orden de juego", url: "/orden-de-juego" },
   { name: "Reglamento", url: "/reglamento" },
   { name: "Jugadores", url: "/jugadores" },
-  { name: "Nosotros", url: "/nosotros" },
+  { name: "Sobre la liga", url: "/nosotros" },
   { name: "Registro de jugadores", url: "/bienvenido" },
 ];
