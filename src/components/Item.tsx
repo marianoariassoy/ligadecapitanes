@@ -10,7 +10,7 @@ interface Item {
 
 const TitleRow = ({ num, image, title, link }: Item) => {
   return (
-    <div className="flex items-center gap-x-3 text-sm">
+    <div className="flex items-center gap-x-3">
       {num && <div className="font-semibold">{num}</div>}
 
       <div className="w-16 h-16 rounded-full overflow-hidden bg-white/10">
