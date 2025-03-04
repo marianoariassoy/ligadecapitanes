@@ -1,5 +1,7 @@
 import Title from "@/components/Title";
 import Filter from "./Filter";
+import { text } from "stream/consumers";
+import { title } from "process";
 
 export const metadata = {
   title: "Reglamento",
@@ -128,12 +130,76 @@ Cualquier reclamo que verse sobre situaciones que puedan darse desde el comienzo
 La Organización se reserva el derecho a modificar el presente reglamento cuando sea imperioso establecer, regular o fijar conductas o acciones que puedan generar conflictos o diversas interpretaciones, con el objeto de conducir a un mejor desenvolvimiento de las diversas competiciones. Frente a aspectos que no se encuentren específicamente normados o que razonablemente pudieran prestarse a una ambigua interpretación, se tomará una determinación que resuelva la cuestión en conflicto en base a la opinión mayoritaria de los capitanes integrantes de la Comisión Directiva convocados a tratar el tema, notificando su decisión a los capitanes de los equipos afectados, la cual será inapelable y generará un precedente a considerar ante otros conflictos asimilables y futuras modificaciones de este reglamento.
 `,
     },
+    {
+      title: "Anexo I: Categoría Segunda +35",
+      text: ``,
+    },
+    {
+      title: "1ra Fase “Round Robin”: Todos contra todos general por grupos",
+      text: `El Torneo se conforma con dos (2) grupos (“A” y “B”) de nueve (9) equipos cada uno, lo que totaliza en conjunto dieciocho (18) inscriptos para la presente edición.
+
+Se juega una primera fase con formato de “todos contra todos” dentro de cada grupo, totalizando ocho (8) encuentros en cada grupo.
+
+Los primeros cuatro (4) clasificados de cada grupo pasarán a competir en una nueva zona de ganadores, llamada Copa Gaudio (8 equipos), mientras que los ubicados en las siguientes posiciones (5to a 9no) de la clasificación formarán la zona de perdedores, o Copa Coria (10 equipos).`,
+    },
+
+    {
+      title: "2da Fase “Playoffs”: Eliminatorias Copas Gaudio y Coria",
+      text: `Las Copas Gaudio o Coria competirán en una nueva fase, esta vez de eliminación del torneo para algunos equipos, con el fin de definir a los semifinalistas de cada zona.
+
+Los ocho (8) equipos de la Copa Gaudio jugarán tres (3) partidos contra rivales de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a fin de establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que se invertirá la condición de local.
+
+Asimismo, los diez (10) equipos de la Copa Coria jugarán tres (3) partidos contra rivales de esa misma zona, definidos del mismo modo. 
+
+Luego de estos 3 partidos, los 4 equipos mejor clasificados en cada Copa pasarán a la siguiente fase de semifinales y finales.
+
+Con este esquema, se garantiza la participación de todos los equipos con un mínimo de 11 encuentros jugados, y hasta un máximo de 13 fechas generales a jugarse, manteniendo vivas para todos, las aspiraciones por acceder a las instancias de premiación, prácticamente hasta el final de la competencia.`,
+    },
+    {
+      title: "3ra Fase: Semifinales y Finales",
+      text: `Los cuatro (4) equipos mejor clasificados de cada Copa jugarán las semifinales.
+
+Los cruces y las localías se determinarán en función de los resultados obtenidos en la 2da Fase.  El 1er clasificado jugará de local vs el 4to, y el 2do jugará de local vs el 3ro.  
+
+Los ganadores de esos cruces jugarán las finales de la Copa Gaudio y de la Copa Coria en cancha neutral, a efectos de definir al campeón y subcampeón de cada una.
+
+Los equipos finalistas de la Copa Gaudio ascenderán a la Categoría Intermedia en el siguiente Torneo.`,
+    },
+    {
+      title: "Anexo II: Categoría Intermedia +35",
+      text: ``,
+    },
+    {
+      title: "1ra Fase: “Round Robin”: Todos contra todos general por grupos",
+      text: `El Torneo se conforma con un grupo único de 10 equipos para la presente edición.
+
+Se juega una primera fase con formato de “todos contra todos” totalizando nueve (9) encuentros para cada equipo.
+
+Los primeros 4 clasificados de esta fase, conformarán una nueva zona de ganadores, llamada Copa Gaudio, mientras que los ubicados en las siguientes seis (6) posiciones (5to a 10mo) de la clasificación formarán la zona de perdedores, o Copa Coria.
+`,
+    },
+    {
+      title:
+        "2da Fase “Playoffs”: Eliminatorias Copas Gaudio y Coria e instancias Finales",
+      text: `Las Copas Gaudio o Coria competirán en una nueva fase, esta vez de eliminación del torneo para algunos equipos, con el fin de definir a los finalistas de cada zona.
+
+Los cuatro (4) equipos de la Copa Gaudio jugarán, en formato todos contra todos, tres (3) partidos contra rivales de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a fin de establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que se invertirá la condición de local. 
+
+Los dos equipos mejor posicionados luego de completada la Copa Gaudio Intermedia jugarán la Final para determinar al Campeón.
+
+Asimismo, los seis (6) equipos de la Copa Coria jugarán, en formato todos contra todos, tres (3) partidos contra rivales de esa misma zona, definidos del mismo modo. 
+
+Los dos equipos mejor posicionados luego de completada la Copa Coria Intermedia jugarán la Final para determinar al Campeón.
+
+Con este esquema, se garantiza la participación de todos los equipos con un mínimo de 12 encuentros jugados y un máximo de 13, manteniendo vivas para todos, las aspiraciones por acceder a las instancias de premiación, prácticamente hasta el final de la competencia.
+
+Las finales de la Copa Gaudio y de la Copa Coria, tanto en Intermedia como en Segunda categoría, se jugaran el mismo dia en cancha neutral a definir. `,
+    },
   ];
 
   return (
     <section className="fade-in flex flex-col gap-y-6">
       <Title title="Reglamento" emoji="🤝" description="" />
-
       <Filter data={data} />
     </section>
   );
