@@ -1,7 +1,5 @@
 import Title from "@/components/Title";
 import Filter from "./Filter";
-import { text } from "stream/consumers";
-import { title } from "process";
 
 export const metadata = {
   title: "Reglamento",
