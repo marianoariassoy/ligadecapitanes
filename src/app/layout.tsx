@@ -54,7 +54,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#252525" />
+        <meta name="theme-color" content="#403c3c" />
       </head>
       <body
         className="bg-background text-foreground min-h-screen flex flex-col"
@@ -63,7 +63,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4">{children}</main>
         <Footer />
-        <div className="fixed bg-scroll top-0 left-0 bg-[url('/assets/background.webp')] h-full w-screen -z-10 opacity-20"></div>
+        {/* <div className="fixed bg-scroll top-0 left-0 bg-[url('/assets/background.webp')] h-full w-screen -z-10 opacity-20"></div> */}
       </body>
     </html>
   );
