@@ -63,7 +63,6 @@ export default function RootLayout({
         <Header />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4">{children}</main>
         <Footer />
-        {/* <div className="fixed bg-scroll top-0 left-0 bg-[url('/assets/background.webp')] h-full w-screen -z-10 opacity-20"></div> */}
       </body>
     </html>
   );
