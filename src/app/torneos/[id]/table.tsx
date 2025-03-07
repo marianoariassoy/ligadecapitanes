@@ -86,12 +86,21 @@ const Tabla = async ({ group, type }: { group: Group; type: number }) => {
                             <Bull />
                           </span>
                         ) : (
-                          <span className="text-white/30">
+                          <span className="text-red-400">
                             <Bull />
                           </span>
                         )}
                       </span>
                     ))}
+                    {item.series.length === 0 ? (
+                      <span className="text-white/30 flex gap-x-2">
+                        <Bull />
+                        <Bull />
+                        <Bull />
+                        <Bull />
+                        <Bull />
+                      </span>
+                    ) : null}
                   </div>
                 </td>
               </tr>

@@ -5,7 +5,8 @@ import Item from "@/components/ItemSmall";
 import { Serie } from "@/types/";
 
 export const metadata = {
-  title: "Orde de juego",
+  title: "Orden de juego",
+  description: "Orden de juego de la Liga de Capitanes",
 };
 
 const page = async () => {
