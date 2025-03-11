@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import Link from "next/link";
 import { WhatsApp, Info } from "@/lib/icons";
 import Jugadores from "./jugadores";

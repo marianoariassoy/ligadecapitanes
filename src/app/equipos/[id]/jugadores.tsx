@@ -74,7 +74,6 @@ const Jugadores = async ({
           </tbody>
         </table>
       </div>
-
       <Labels labels={labels.slice(1, labels.length)} />
     </section>
   );

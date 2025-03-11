@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import Estadisticas from "./estadisticas";
 import Singles from "./singles";
 import Doubles from "./dobles";
