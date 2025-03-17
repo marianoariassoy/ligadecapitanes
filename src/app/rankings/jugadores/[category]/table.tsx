@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Item from "@/components/Item";
+import Item from "@/components/ItemMedium";
 import Labels from "@/components/Labels";
 import { categories } from "@/lib/data";
 import Messages from "@/components/Messages";
@@ -78,9 +78,9 @@ const table = async ({ category }: { category: string }) => {
           <tbody>
             {dataFiltered.slice(0, 50).map((item, index) => (
               <tr key={item.id} className={`${index === 0 && "text-primary"}`}>
-                <td>
+                <td className="flex items-center gap-x-2">
+                  <span className="font-medium">{index + 1}</span>
                   <Item
-                    num={index + 1}
                     image={item.player_image}
                     title={item.player_name}
                     link={`/jugadores/${item.player_id}`}

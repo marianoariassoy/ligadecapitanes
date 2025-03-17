@@ -1,4 +1,4 @@
-import Item from "@/components/Item";
+import Item from "@/components/ItemMedium";
 import { Player } from "../../../types";
 import Labels from "@/components/Labels";
 
@@ -57,9 +57,9 @@ const Jugadores = async ({
           <tbody>
             {data.map((item, index) => (
               <tr key={item.id}>
-                <td>
+                <td className="flex items-center gap-x-2">
+                  <span className="font-medium">{index + 1}</span>
                   <Item
-                    num={index + 1}
                     image={item.image}
                     title={item.name}
                     link={`/jugadores/${item.id}`}
