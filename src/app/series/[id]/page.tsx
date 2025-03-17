@@ -17,13 +17,13 @@ export async function generateMetadata({
 
   return {
     title: `Encuentro entre ${data.home_name} y ${data.away_name} del día ${data.date}`,
-    description: `Encuentro entre ${data.home_name} y ${data.away_name} del día ${data.date} ${data.hour} de la Liga de Capitanes`,
+    description: `Encuentro entre ${data.home_name} y ${data.away_name} del día ${data.date} de la Liga de Capitanes`,
     openGraph: {
       type: "website",
       locale: "es_AR",
       url: `https://ligadecapitanes.com.ar/series/${id}`,
       title: `${data.home_name} y ${data.away_name} del ${data.date}`,
-      description: `Encuentro entre ${data.home_name} y ${data.away_name} del día ${data.date} ${data.hour} de la Liga de Capitanes`,
+      description: `Encuentro entre ${data.home_name} y ${data.away_name} del día ${data.date} de la Liga de Capitanes`,
       images: [
         {
           url: `/assets/ligadecapitanes.jpg`,

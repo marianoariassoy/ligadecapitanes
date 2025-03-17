@@ -19,12 +19,12 @@ const footer = () => {
           <span>&bull;</span>
           <span>
             <a
-              href="mailto:hola@ligadecapitenes.com.ar"
+              href="mailto:hola@ligadecapitanes.com.ar"
               className="hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
-              hola@ligadecapitenes.com.ar
+              hola@ligadecapitanes.com.ar
             </a>
           </span>
         </div>

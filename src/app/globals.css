@@ -6,9 +6,11 @@
   --primary: #9acb8a;
   --foreground: #a7a7a7;
   --secondary: #8b8b8b;
-  --background: #403c3c;
+  --background: #3c3939;
 }
-
+.bg-header {
+  background-color: rgba(60, 57, 57, 0.8);
+}
 .table thead tr th {
   text-align: left;
   color: var(--secondary);

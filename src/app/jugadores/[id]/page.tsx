@@ -2,6 +2,7 @@ import Estadisticas from "./estadisticas";
 import Singles from "./singles";
 import Doubles from "./dobles";
 import Equipos from "./equipos";
+import Aviso from "@/components/Aviso";
 
 export async function generateMetadata({
   params,
@@ -76,6 +77,8 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
       <Singles id={id} />
       <Doubles id={id} />
       <Equipos id={id} />
+
+      <Aviso text="En caso de existir algún error en la información o queres agregar o cambiar tu foto de perfil, envianos un correo a hola@ligadecapitanes.com.ar" />
     </section>
   );
 };

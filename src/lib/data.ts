@@ -3,9 +3,14 @@ export const categories = [
     name: "Caballeros Intermedia +35",
     url: "/torneos/2",
     slug: "intermedia",
-    id: 2,
+    id: 13,
   },
-  { name: "Caballeros Segunda +35", url: "/torneos/1", slug: "segunda", id: 1 },
+  {
+    name: "Caballeros Segunda +35",
+    url: "/torneos/1",
+    slug: "segunda",
+    id: 12,
+  },
 ];
 
 export const menu = [
