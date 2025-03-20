@@ -11,7 +11,10 @@ export const metadata = {
 
 const page = async () => {
   const response = await fetch(
-    process.env.NEXT_PUBLIC_API_URL + "/series/upcoming"
+    process.env.NEXT_PUBLIC_API_URL + "/series/upcoming",
+    {
+      cache: "no-store",
+    }
   );
   if (response.status !== 200)
     return <Messages text="No se pudo cargar la información" />;
