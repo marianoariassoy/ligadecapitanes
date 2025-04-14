@@ -3,6 +3,7 @@ import Campeon from "./campeon";
 import Groups from "./groups";
 import { Suspense } from "react";
 import Loader from "@/components/Loader";
+import Fixture from "./fixture";
 
 export async function generateMetadata({
   params,
@@ -59,6 +60,10 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
 
       <Suspense fallback={<Loader />}>
         <Groups id_tournament={id} />
+      </Suspense>
+
+      <Suspense fallback={<Loader />}>
+        <Fixture title={true} id_tournament={id} />
       </Suspense>
     </section>
   );

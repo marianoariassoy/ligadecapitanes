@@ -47,12 +47,17 @@ const Menu = () => {
             </Link>
           </li>
         ))}
+        <li className="mt-3">
+          <Link href="/bienvenido" className="hover:underline text-white/40">
+            Registro de jugadores
+          </Link>
+        </li>
         <li>
           <a
             href="https://usuarios.ligadecapitanes.com.ar/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline text-white/70"
+            className="hover:underline text-white/40"
           >
             Capitanes
           </a>
