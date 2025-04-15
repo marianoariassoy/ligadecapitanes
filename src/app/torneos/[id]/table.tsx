@@ -37,20 +37,18 @@ const Tabla = async ({
           </thead>
           <tbody>
             {data.map((item, index) => (
-              <tr
-                key={item.id}
-                className={`${index < group.winners ? "text-primary" : ""}`}
-              >
+              <tr key={item.id}>
                 <td>
                   <Item
                     num={index + 1}
                     image={item.image}
                     title={item.name}
                     link={`/equipos/${item.id}`}
+                    active={index < group.winners}
                   />
                 </td>
                 <td>
-                  <span className="font-bold">{item.series_won}</span>
+                  <span className="font-semibold">{item.series_won}</span>
                 </td>
                 <td>{item.match_won}</td>
                 <td>{item.sets}</td>

@@ -5,12 +5,17 @@ interface Item {
   image: string;
   title: string;
   link: string;
+  active?: boolean;
 }
 
-const TitleRow = ({ num, image, title, link }: Item) => {
+const TitleRow = ({ num, image, title, link, active }: Item) => {
   return (
     <div className="flex items-center gap-x-3">
-      {num && <div className="font-semibold">{num}</div>}
+      {num && (
+        <div className={`font-semibold ${active ? "text-primary" : ""}`}>
+          {num}
+        </div>
+      )}
 
       <div className="w-16 h-16 rounded-full overflow-hidden bg-white/10">
         {image ? (

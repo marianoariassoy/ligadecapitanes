@@ -89,13 +89,13 @@ const table = async ({ category }: { category: string }) => {
                 <td>
                   <Link
                     href={`/equipos/${item.team_id}`}
-                    className="hover:text-primary font-bold"
+                    className="hover:text-primary font-semibold"
                   >
                     {item.team_name}
                   </Link>
                 </td>
                 <td>
-                  <span className="font-bold">{item.matches_won}</span>
+                  <span className="font-semibold">{item.matches_won}</span>
                 </td>
                 <td>{item.ds}</td>
                 <td>{item.dg}</td>

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className="fade-in">
       <h1
-        className="fade-in-slow font-black text-center text-[3.9rem] leading-none lg:text-8xl text-primary flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer drop-shadow-lg"
+        className="fade-in-slow font-black text-center text-[3.9rem] leading-none lg:text-8xl text-primary flex flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer drop-shadow-xl"
         onClick={handleMenu}
       >
         <span>Torneo</span>
@@ -18,7 +18,7 @@ export default function Home() {
       </h1>
       <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-50 blur-sm">
         <img
-          src="/assets/ldc-bg.jpg"
+          src="/assets/ldc-bg.webp"
           alt="Logo"
           height={1920}
           className="h-full w-full object-cover bg-center "
