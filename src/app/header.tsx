@@ -4,6 +4,7 @@ import { Instagram, Menu } from "@/lib/icons";
 import Link from "next/link";
 import Nav from "./nav";
 import { usePathname } from "next/navigation";
+import ReactGA from "react-ga4";
 
 const Header = () => {
   const pathname = usePathname();
@@ -28,6 +29,10 @@ const Header = () => {
       }
     };
   }, [pathname]);
+
+  useEffect(() => {
+    ReactGA.initialize("G-0ZMTELW8GH");
+  }, []);
 
   const handleMenu = () => {
     const nav = document.querySelector("#menu") as HTMLElement;
