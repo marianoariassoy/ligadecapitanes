@@ -38,7 +38,7 @@ const Tabla = async ({
           <tbody>
             {data.map((item, index) => (
               <tr key={item.id}>
-                <td>
+                <td className="w-full">
                   <Item
                     num={index + 1}
                     image={item.image}
