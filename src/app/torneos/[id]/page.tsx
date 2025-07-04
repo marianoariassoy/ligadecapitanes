@@ -52,6 +52,8 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
   const data = await getServerSideProps(id);
   if (!data) return null;
 
+  console.log(data);
+
   return (
     <section className="fade-in flex flex-col gap-y-6">
       <Title title={data[0].name + " " + data[0].season} emoji="🏆" />
