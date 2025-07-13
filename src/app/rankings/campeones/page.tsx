@@ -13,7 +13,7 @@ export const metadata = {
     description: "Ranking de campeones de la Liga de Capitanes",
     images: [
       {
-        url: "/assets/ligadecapitanes.jpg",
+        url: "https://ligadecapitanes.com.ar/assets/ligadecapitanes.jpg",
         width: 500,
         height: 500,
         alt: "Liga de Capitanes",
@@ -35,7 +35,8 @@ interface data {
 
 const page = async () => {
   const response = await fetch(
-    process.env.NEXT_PUBLIC_API_URL + "/clubes/champions"
+    process.env.NEXT_PUBLIC_API_URL + "/clubes/champions",
+    { cache: "no-cache" }
   );
   const data = (await response.json()) as data[];
 
