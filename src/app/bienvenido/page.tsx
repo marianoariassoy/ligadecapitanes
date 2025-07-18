@@ -175,33 +175,7 @@ const page = () => {
                 />
                 <Error error={errors.dni} />
               </div>
-              <div className="form-control">
-                <Input
-                  type="password"
-                  title="Contraseña"
-                  placeholder="contraseña"
-                  register={register("password", {
-                    required: errorMessage,
-                    validate: (value) =>
-                      value.length > 4 ||
-                      "La longitud debe ser mayor a 4 caracteres",
-                  })}
-                />
-                <Error error={errors.password} />
-              </div>
-              <div className="form-control">
-                <Input
-                  type="password"
-                  title="Repetir contraseña"
-                  placeholder="contraseña"
-                  register={register("confirmPassword", {
-                    required: errorMessage,
-                    validate: (value) =>
-                      value === password || "Las contraseñas no coinciden",
-                  })}
-                />
-                <Error error={errors.confirmPassword} />
-              </div>
+
               <div className="form-control">
                 <label className="text-sm mb-2 block">
                   <span className="text-primary font-medium">
@@ -222,7 +196,7 @@ const page = () => {
               <div className="form-control">
                 <label className="text-sm mb-2 block">
                   <span className="text-primary font-medium">
-                    Foto de perfil (sugerido)
+                    Foto de perfil (Requerido)
                   </span>
                 </label>
                 <input

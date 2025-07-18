@@ -19,7 +19,7 @@ const page = async () => {
       <div className="flex flex-col gap-y-1 items-center font-medium text-sm">
         {data &&
           data
-            .filter((item) => item.season !== 5)
+            .filter((item) => item.season !== 7)
             .map((item) => (
               <Link
                 key={item.id}

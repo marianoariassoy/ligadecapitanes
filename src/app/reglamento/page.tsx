@@ -197,7 +197,7 @@ Las finales de la Copa Gaudio y de la Copa Coria, tanto en Intermedia como en Se
 
   return (
     <section className="fade-in flex flex-col gap-y-6">
-      <Title title="Reglamento" emoji="🤝" description="" />
+      <Title title="Reglamento Apertura 2025" emoji="🤝" description="" />
       <Filter data={data} />
     </section>
   );

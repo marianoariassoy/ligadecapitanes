@@ -49,7 +49,7 @@ const groups = async ({ id_tournament }: { id_tournament: string }) => {
     <section className="flex flex-col gap-y-3">
       {data.map((item) => (
         <div key={item.id} className="flex flex-col gap-y-6">
-          <h1 className="italic font-black text-center text-primary text-xl">
+          <h1 className="italic font-black text-center text-primary text-lg">
             {item.name}
           </h1>
 

@@ -42,7 +42,7 @@ const FixtureMain = ({ data, title }: { data: Serie[]; title: boolean }) => {
                   </div>
                 </td>
                 <td className="w-[5%]">{item.hour}</td>
-                <td className="w-[30%]">
+                <td className="w-[34%]">
                   <ItemSmall
                     link={`/equipos/${item.home_id}`}
                     title={item.home_name}
@@ -69,7 +69,7 @@ const FixtureMain = ({ data, title }: { data: Serie[]; title: boolean }) => {
                     "-"
                   )}
                 </td>
-                <td className="w-[30%]">
+                <td className="w-[40%]">
                   <ItemSmall
                     link={`/equipos/${item.away_id}`}
                     title={item.away_name}
