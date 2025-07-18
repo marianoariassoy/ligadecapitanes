@@ -18,7 +18,7 @@ export default function Home() {
       </h1>
       <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-50 blur-sm">
         <img
-          src="/assets/ldc-bg.webp"
+          src="/assets/ldc-bg-2.jpg"
           alt="Logo"
           height={1920}
           className="h-full w-full object-cover bg-center "
