@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Item from "@/components/Item";
+import Item from "@/components/ItemMedium";
 import { Player } from "@/types";
 
 const Filter = ({ data }: { data: Player[] }) => {
