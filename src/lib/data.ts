@@ -1,13 +1,13 @@
 export const categories = [
   {
     name: "Caballeros Intermedia +35",
-    url: "/soon",
+    url: "/torneos/3",
     slug: "intermedia",
     id: 13,
   },
   {
     name: "Caballeros Segunda +35",
-    url: "/soon",
+    url: "/torneos/4",
     slug: "segunda",
     id: 12,
   },

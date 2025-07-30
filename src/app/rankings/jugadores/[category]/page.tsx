@@ -14,7 +14,7 @@ const page = async ({ params }: { params: Promise<{ category: string }> }) => {
 
   return (
     <section className="fade-in flex flex-col gap-y-6">
-      <Title title="Ranking de Jugadores" description="Apertura 2025" />
+      <Title title="Ranking de Jugadores" description="Clausura 2025" />
 
       <Filter category={category} />
 
