@@ -188,9 +188,9 @@ De esta manera, los ubicados en las restantes posiciones de la clasificación en
       title: "2da Fase: Eliminatorias en zonas",
       text: `Definidos los ingresos a las Copas Gaudio Intermedia o Coria Intermedia se competirá en una nueva fase, esta vez de eliminación del torneo para algunos equipos, con el fin de definir a los semifinalistas de cada zona.
  
-Los ocho (8) equipos de la Copa Gaudio Intermedia jugarán tres (3) partidos contra rivales de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a fin de establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que se invertirá la condición de local.
+Los ocho (8) equipos de la Copa Gaudio Intermedia jugarán cuatro (4) partidos contra rivales de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a fin de establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que se invertirá la condición de local.
  
-Asimismo, los otros ocho (8) equipos de la Copa Coria Intermedia jugarán tres (3) partidos contra rivales de esa misma zona, definidos del mismo modo. Luego de estos 3 partidos, los 4 equipos mejor clasificados en cada zona (o Copa) pasarán a la fase final del torneo, de eliminación directa (Play off).
+Asimismo, los otros ocho (8) equipos de la Copa Coria Intermedia jugarán cuatro (4) partidos contra rivales de esa misma zona, definidos del mismo modo. Luego de estos 3 partidos, los 4 equipos mejor clasificados en cada zona (o Copa) pasarán a la fase final del torneo, de eliminación directa (Play off).
  
 Con este esquema, se garantiza la participación de todos los equipos con un mínimo de entre 10 y 11 encuentros jugados, y hasta un máximo de 13 fechas generales a jugarse, manteniendo vivas para todos, las aspiraciones por acceder a las instancias de premiación, prácticamente hasta el final de la competencia.`,
     },
