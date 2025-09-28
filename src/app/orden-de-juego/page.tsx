@@ -79,10 +79,6 @@ const page = async () => {
           </tbody>
         </table>
       </div>
-      <div className="text-secondary text-center text-sm font-medium">
-        <span className="mr-1 text-xl">⭐️</span>
-        Serie a otorgarse el premio Jugador Destacado Yuka de la fecha.
-      </div>
     </section>
   );
 };

@@ -61,6 +61,15 @@ const Tabla = async ({
                 <td>{item.games}</td>
                 <td>{item.series_total}</td>
                 <td>
+                  {item.series_total > 0
+                    ? (
+                        (Number(item.match_won) /
+                          (Number(item.series_total) * 3)) *
+                        100
+                      ).toFixed(0)
+                    : 0}
+                </td>
+                <td>
                   <div className="flex gap-x-2">
                     {item.series.map((item, index) => (
                       <span key={index}>
