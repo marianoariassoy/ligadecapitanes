@@ -63,8 +63,7 @@ const Tabla = async ({
                 <td>
                   {item.series_total > 0
                     ? (
-                        (Number(item.match_won) /
-                          (Number(item.series_total) * 3)) *
+                        (Number(item.series_won) / Number(item.series_total)) *
                         100
                       ).toFixed(0)
                     : 0}
