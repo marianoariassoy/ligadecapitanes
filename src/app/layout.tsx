@@ -58,9 +58,9 @@ export default function RootLayout({
         className="bg-background text-foreground min-h-screen flex flex-col"
         style={{ fontFamily: montserrat.style.fontFamily }}
       >
-        {/* <Header /> */}
+        <Header />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4">{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
