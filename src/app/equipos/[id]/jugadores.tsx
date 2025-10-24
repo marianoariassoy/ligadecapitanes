@@ -56,7 +56,10 @@ const Jugadores = async ({
           </thead>
           <tbody>
             {data.map((item, index) => (
-              <tr key={item.id}>
+              <tr
+                key={item.id}
+                className={item.series_total > 0 ? "opacity-100" : "opacity-30"}
+              >
                 <td className="flex items-center gap-x-2">
                   <span className="font-medium">{index + 1}</span>
                   <Item
