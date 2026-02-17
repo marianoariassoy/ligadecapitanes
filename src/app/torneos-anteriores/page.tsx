@@ -8,18 +8,18 @@ export const metadata = {
 
 const page = async () => {
   const response = await fetch(
-    process.env.NEXT_PUBLIC_API_URL + "/tournaments"
+    process.env.NEXT_PUBLIC_API_URL + "/tournaments",
   );
   const data = (await response.json()) as Tournament[];
 
   return (
     <section className="fade-in flex flex-col gap-y-6">
-      <Title title="Torneos Anteriores" emoji="👴" />
+      <Title title="Torneos Anteriores" />
 
       <div className="flex flex-col gap-y-1 items-center font-medium text-sm">
         {data &&
           data
-            .filter((item) => item.season !== 7)
+            .filter((item) => item.season !== 8)
             .map((item) => (
               <Link
                 key={item.id}
