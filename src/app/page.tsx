@@ -19,8 +19,8 @@ export default function Home() {
         onClick={handleMenu}
       >
         <span>Torneo</span>
-        <span>Clausura</span>
-        <span>2025</span>
+        <span>Apertura</span>
+        <span>2026</span>
       </h1>
       <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-50 blur-sm">
         <img
