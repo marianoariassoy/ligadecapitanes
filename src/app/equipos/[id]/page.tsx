@@ -12,7 +12,7 @@ export async function generateMetadata({
 }) {
   const { id } = await params;
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/teams/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/teams/${id}`,
   );
   const data = await response.json();
   if (!data) return null;
@@ -40,7 +40,7 @@ export async function generateMetadata({
 
 async function getServerSideProps(id: string) {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/teams/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/teams/${id}`,
   );
   const data = await response.json();
   if (!data) return null;
@@ -86,14 +86,6 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
             <Info />
             Info de la sede
           </Link>
-          <a
-            href={`https://wa.me/${data.captain_phone}`}
-            target="_blank"
-            className="flex gap-x-1 font-medium items-center text-primary hover:underline"
-          >
-            <WhatsApp />
-            WhatsApp
-          </a>
         </div>
       </header>
 
