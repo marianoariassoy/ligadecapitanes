@@ -10,7 +10,7 @@ const Jugadores = async ({
   captain_name: string;
 }) => {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/teams/${id}/players`
+    `${process.env.NEXT_PUBLIC_API_URL}/teams/${id}/players`,
   );
   const data = (await response.json()) as Player[];
   if (!data) return null;
@@ -56,10 +56,7 @@ const Jugadores = async ({
           </thead>
           <tbody>
             {data.map((item, index) => (
-              <tr
-                key={item.id}
-                className={item.series_total > 0 ? "opacity-100" : "opacity-50"}
-              >
+              <tr key={item.id}>
                 <td className="flex items-center gap-x-2">
                   <span className="font-medium">{index + 1}</span>
                   <Item
