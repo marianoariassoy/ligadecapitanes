@@ -8,7 +8,7 @@ import Fixture from "./fixture-group";
 
 const groups = async ({ id_tournament }: { id_tournament: string }) => {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/tournaments/${id_tournament}/groups`
+    `${process.env.NEXT_PUBLIC_API_URL}/tournaments/${id_tournament}/groups`,
   );
   const data = (await response.json()) as Group[];
   if (!data) return null;
@@ -21,6 +21,10 @@ const groups = async ({ id_tournament }: { id_tournament: string }) => {
     {
       name: "SG",
       value: "Series ganadas",
+    },
+    {
+      name: "D1",
+      value: "Dobles 1 ganados",
     },
     {
       name: "PG",

@@ -14,7 +14,7 @@ export const categories = [
 ];
 
 export const menu = [
-  { name: "Ranking Jugadores", url: "/rankings/jugadores/intermedia" },
+  // { name: "Ranking Jugadores", url: "/rankings/jugadores/intermedia" },
   { name: "Ranking de Campeones", url: "/rankings/campeones" },
   { name: "Orden de juego", url: "/orden-de-juego" },
   { name: "Reglamento", url: "/reglamento" },

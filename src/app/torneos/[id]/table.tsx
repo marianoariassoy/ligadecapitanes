@@ -19,7 +19,7 @@ const Tabla = async ({
   const response = await fetch(
     `${process.env.NEXT_PUBLIC_API_URL}/${
       type === 3 ? "groups-stage2" : "groups"
-    }/teams/${group.id}`
+    }/teams/${group.id}`,
   );
   const data = (await response.json()) as Table[];
   if (!data) return null;
@@ -56,6 +56,8 @@ const Tabla = async ({
                     {item.series_won}
                   </span>
                 </td>
+
+                <td>{item.d1_won}</td>
                 <td>{item.match_won}</td>
                 <td>{item.sets}</td>
                 <td>{item.games}</td>

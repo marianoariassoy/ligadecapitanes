@@ -111,6 +111,7 @@ export interface Table {
   name: string;
   image: string;
   club_image: string;
+  d1_won: number;
   match_won: number;
   series_won: number;
   sets: number;
