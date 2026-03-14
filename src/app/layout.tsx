@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 import "./globals.css";
 import Header from "./header";
 import Footer from "./footer";
 
-const montserrat = Inter({
+const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
 });
