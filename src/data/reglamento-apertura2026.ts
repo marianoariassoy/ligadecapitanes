@@ -55,7 +55,16 @@ Los equipos que participen por primera vez podrán anotarse en la categoría que
 
 Tal el espíritu fundacional de esta Liga basado en la Buena Fe Deportiva, se apela a la Buena Formación en cuanto a la declaración de competitividad de cada jugador integrante de un equipo como a la conformación del equipo para cada jornada.
 
-Los jugadores que participen en la segunda fase: Copa Gaudio o Copa Coria,  deberán haber jugado al menos una fecha durante la primera etapa del torneo.
+Los jugadores de los equipos que se presenten para jugar la Final y la Semifinal de cada
+categoría o copa, al igual que quienes participen de las series de la segunda fase (tanto en
+Copa Gaudio como en Copa Coria) deberán haber jugado como mínimo en una fecha
+durante la primera etapa del torneo (“round robin” o “todos contra todos”). Además, en el
+caso de las series de finales y semifinales, las listas con los nombres de quienes integrarán
+su formación para esos cruces deberán ser presentadas a la Organización con 24 horas de
+antelación al inicio de la serie. Los capitanes de esos equipos tendrán derecho a requerir
+la formación declarada por sus rivales, por lo que -encontrándose anoticiados de la misma
+o habiendo desaprovechado el ejercicio de esa facultad- una vez iniciado el primero de los
+partidos perderán toda posibilidad de reclamo o impugnación.
 
 En la etapa de inscripción deberán incluirse los datos completos de cada jugador (nombre, DNI, fecha de nacimiento, celular y correo electrónico), pudiendo requerirse también una foto de cada inscripto.
 
