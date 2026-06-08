@@ -55,7 +55,7 @@ Los equipos que participen por primera vez podrán anotarse en la categoría que
 
 Tal el espíritu fundacional de esta Liga basado en la Buena Fe Deportiva, se apela a la Buena Formación en cuanto a la declaración de competitividad de cada jugador integrante de un equipo como a la conformación del equipo para cada jornada.
 
-Los jugadores que participen de semifinales o finales deberán haber jugado al menos una fecha durante la primera etapa del torneo.
+Los jugadores que participen en la segunda fase: Copa Gaudio o Copa Coria,  deberán haber jugado al menos una fecha durante la primera etapa del torneo.
 
 En la etapa de inscripción deberán incluirse los datos completos de cada jugador (nombre, DNI, fecha de nacimiento, celular y correo electrónico), pudiendo requerirse también una foto de cada inscripto.
 
