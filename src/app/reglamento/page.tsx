@@ -9,7 +9,7 @@ export const metadata = {
 const page = () => {
   return (
     <section className="fade-in flex flex-col gap-y-6">
-      <Title title="Reglamento Clausura 2025" emoji="🤝" description="" />
+      <Title title="Reglamento Clausura 2026" description="" />
       <Filter data={reglamento} />
     </section>
   );

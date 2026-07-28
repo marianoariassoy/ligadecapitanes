@@ -14,18 +14,16 @@ interface Item {
 
 const JugadoresEquipos = async ({ id }: { id: string }) => {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/players/${id}/teams`
+    `${process.env.NEXT_PUBLIC_API_URL}/players/${id}/teams`,
   );
   const data = (await response.json()) as Item[];
   if (!data) return null;
 
   return (
     <section className="fade-in flex flex-col gap-y-3">
-      <h1 className="text-center text-sm font-semibold text-primary">
-        Equipos
-      </h1>
+      <h1 className="text-center font-semibold text-primary">Equipos</h1>
 
-      <div className="overflow-x-auto text-sm whitespace-nowrap">
+      <div className="overflow-x-auto whitespace-nowrap">
         <table className="table w-full mb-3">
           <thead>
             <tr>

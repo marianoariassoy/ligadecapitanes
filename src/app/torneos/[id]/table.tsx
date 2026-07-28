@@ -25,7 +25,7 @@ const Tabla = async ({
   if (!data) return null;
 
   return (
-    <section className="flex flex-col gap-y-3 text-sm">
+    <section className="flex flex-col gap-y-3">
       <div className="overflow-x-auto whitespace-nowrap">
         <table className="w-full table mb-3">
           <thead>

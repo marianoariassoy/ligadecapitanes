@@ -1,0 +1,19 @@
+import { WhatsApp } from "@/lib/icons";
+
+const Whatsapp = () => {
+  return (
+    <div className="fixed bottom-8 right-4 z-50">
+      <a
+        href="http://wa.me/5491130171475"
+        target="_blank"
+        rel="noreferrer"
+        className="w-14 h-14 rounded-full 
+        text-xl transition-all flex items-center justify-center  hover:scale-105 text-white bg-primary"
+      >
+        <WhatsApp />
+      </a>
+    </div>
+  );
+};
+
+export default Whatsapp;

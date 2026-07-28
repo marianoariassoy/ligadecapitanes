@@ -36,7 +36,7 @@ interface data {
 const page = async () => {
   const response = await fetch(
     process.env.NEXT_PUBLIC_API_URL + "/clubes/champions",
-    { cache: "no-cache" }
+    { cache: "no-cache" },
   );
   const data = (await response.json()) as data[];
 
@@ -62,9 +62,9 @@ const page = async () => {
 
   return (
     <section className="fade-in flex flex-col gap-y-6">
-      <Title title="Ranking de Campeones" emoji="👑" />
+      <Title title="Ranking de Campeones" />
 
-      <div className="w-full overflow-x-auto text-sm">
+      <div className="w-full overflow-x-auto">
         <table className="table w-full mb-3">
           <thead>
             <tr>

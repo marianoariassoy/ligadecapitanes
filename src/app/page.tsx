@@ -1,10 +1,5 @@
 "use client";
-
-// import { redirect } from "next/navigation";
-
-// export default function Redirect() {
-//   redirect("/soon");
-// }
+import WhatsApp from "@/components/WhatsApp";
 
 export default function Home() {
   const handleMenu = () => {
@@ -19,7 +14,7 @@ export default function Home() {
         onClick={handleMenu}
       >
         <span>Torneo</span>
-        <span>Apertura</span>
+        <span>Clausura</span>
         <span>2026</span>
       </h1>
       <div className="absolute top-0 left-0 w-full h-full -z-10 opacity-50 blur-sm">
@@ -30,6 +25,8 @@ export default function Home() {
           className="h-full w-full object-cover bg-center "
         />
       </div>
+
+      <WhatsApp />
     </section>
   );
 }

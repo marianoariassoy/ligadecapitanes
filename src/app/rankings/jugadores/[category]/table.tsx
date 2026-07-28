@@ -23,7 +23,7 @@ const table = async ({ category }: { category: string }) => {
     process.env.NEXT_PUBLIC_API_URL + "/rankings/players",
     {
       cache: "no-store",
-    }
+    },
   );
   const data = (await response.json()) as data[];
   if (!data) return null;
@@ -58,7 +58,7 @@ const table = async ({ category }: { category: string }) => {
 
   const category_id = categories.filter((item) => item.slug === category);
   const dataFiltered = data.filter(
-    (item) => +item.category === category_id[0].id
+    (item) => +item.category === category_id[0].id,
   );
 
   if (dataFiltered.length === 0)
@@ -66,7 +66,7 @@ const table = async ({ category }: { category: string }) => {
 
   return (
     <>
-      <div className="overflow-x-auto text-sm whitespace-nowrap">
+      <div className="overflow-x-auto whitespace-nowrap">
         <table className="table w-full mb-3">
           <thead>
             <tr>

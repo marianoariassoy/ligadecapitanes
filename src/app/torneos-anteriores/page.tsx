@@ -16,10 +16,10 @@ const page = async () => {
     <section className="fade-in flex flex-col gap-y-6">
       <Title title="Torneos Anteriores" />
 
-      <div className="flex flex-col gap-y-1 items-center font-medium text-sm">
+      <div className="flex flex-col gap-y-1 items-center font-medium">
         {data &&
           data
-            .filter((item) => item.season !== 8)
+            .filter((item) => item.season !== 9)
             .map((item) => (
               <Link
                 key={item.id}

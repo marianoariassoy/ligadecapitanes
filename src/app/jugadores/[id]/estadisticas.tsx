@@ -2,7 +2,7 @@ import Count from "./count";
 
 const estadisticas = async ({ id }: { id: string }) => {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/users/stats/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/users/stats/${id}`,
   );
   const data = await response.json();
   if (!data) return null;
@@ -12,7 +12,7 @@ const estadisticas = async ({ id }: { id: string }) => {
 
   const calcularPorcentaje = (
     partidosGanados: number,
-    partidosJugados: number
+    partidosJugados: number,
   ): number => {
     if (partidosJugados === 0) {
       return 0;
@@ -23,7 +23,7 @@ const estadisticas = async ({ id }: { id: string }) => {
   const percent = calcularPorcentaje(data.matches_won, data.matches_total);
 
   return (
-    <div className="w-full text-sm p-4 lg:p-6 bg-black/10 rounded-xl shadow-lg">
+    <div className="w-full p-4 lg:p-6 bg-black/10 rounded-xl shadow-lg">
       <table className="w-full">
         <tbody>
           <tr>

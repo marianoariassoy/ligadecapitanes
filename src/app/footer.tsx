@@ -2,8 +2,8 @@ const footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="flex flex-col px-4 py-6">
-      <div className="text-center flex flex-col text-sm">
+    <footer className="flex flex-col px-4 py-4 pt-8">
+      <div className="text-center flex flex-col">
         <span className="font-bold">Liga de Capitanes {year}</span>
 
         <div className="flex items-center flex-wrap justify-center gap-x-1 pb-2">

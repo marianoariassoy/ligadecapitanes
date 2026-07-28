@@ -13,7 +13,7 @@ export async function generateMetadata({
 }) {
   const { id } = await params;
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/clubes/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/clubes/${id}`,
   );
   const data = (await response.json()) as Club[];
   if (!data) return {};
@@ -41,7 +41,7 @@ export async function generateMetadata({
 
 async function getServerSideProps(id: string) {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/clubes/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/clubes/${id}`,
   );
   const data = await response.json();
   if (!data) return null;
@@ -74,9 +74,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
           </Suspense>
         </div>
 
-        <div className="text-sm text-center font-medium">
-          {data[0].location}
-        </div>
+        <div className="text-center font-medium">{data[0].location}</div>
 
         {data[0].googlemaps && (
           <div
@@ -85,7 +83,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
           />
         )}
 
-        <div className="flex flex-wrap gap-3 items-center justify-center font-medium text-sm text-primary">
+        <div className="flex flex-wrap gap-3 items-center justify-center font-medium text-primary">
           {data[0].phone && <span>Tel. {data[0].phone}</span>}
           {data[0].googlemapslink && (
             <a

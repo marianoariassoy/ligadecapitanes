@@ -49,7 +49,7 @@ const page = () => {
           headers: {
             "Content-Type": "multipart/form-data",
           },
-        }
+        },
       );
       if (response?.data?.error) {
         setError(response.data.message);
@@ -86,7 +86,6 @@ const page = () => {
     return (
       <Title
         title="¡Gracias!"
-        emoji="🙏"
         description="¡Tu registro fue realizado con éxito!"
       />
     );
@@ -96,7 +95,6 @@ const page = () => {
       <div className="flex flex-col gap-y-6 max-w-md m-auto lg:max-w-none">
         <Title
           title="¡Bienvenido!"
-          emoji="👋"
           description="Completá el formulario con tus datos y se parte de nuestra liga."
         />
 

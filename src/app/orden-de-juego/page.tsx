@@ -14,7 +14,7 @@ const page = async () => {
     process.env.NEXT_PUBLIC_API_URL + "/series/upcoming",
     {
       cache: "no-store",
-    }
+    },
   );
   if (response.status !== 200)
     return <Messages text="No se pudo cargar la información" />;
@@ -23,7 +23,7 @@ const page = async () => {
     return (
       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-full fade-in flex flex-col items-center justify-center">
         <h1 className="text-3xl mb-1">🙈</h1>
-        <span className="text-primary text-center text-sm font-semibold">
+        <span className="text-primary text-center font-semibold">
           No hay series por disputar
         </span>
       </div>
@@ -33,7 +33,7 @@ const page = async () => {
     <section className="fade-in flex flex-col gap-y-6">
       <Title title={`Orden de juego (${data.length} series)`} emoji="📅" />
 
-      <div className="overflow-x-auto text-sm whitespace-nowrap">
+      <div className="overflow-x-auto whitespace-nowrap">
         <table className="table w-full mb-3">
           <thead>
             <tr>

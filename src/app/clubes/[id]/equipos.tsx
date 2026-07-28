@@ -13,7 +13,7 @@ interface data {
 
 const Equipos = async ({ id }: { id: string }) => {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/clubes/${id}/teams`
+    `${process.env.NEXT_PUBLIC_API_URL}/clubes/${id}/teams`,
   );
   const data = (await response.json()) as data[];
   if (!data) return null;
@@ -47,7 +47,7 @@ const Equipos = async ({ id }: { id: string }) => {
         Equipos ({data.length})
       </h1>
 
-      <div className="overflow-x-auto text-sm whitespace-nowrap">
+      <div className="overflow-x-auto whitespace-nowrap">
         <table className="table w-full mb-3">
           <thead>
             <tr>

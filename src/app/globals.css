@@ -9,10 +9,6 @@
   --background: rgb(60, 57, 57);
 }
 
-body {
-  font-size: 16px;
-}
-
 .bg-header {
   background-color: rgba(60, 57, 57, 0.8);
 }
@@ -20,7 +16,7 @@ body {
   text-align: left;
   color: var(--secondary);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-right: 1rem;
 }
 .table tr td {

@@ -11,7 +11,7 @@ export async function generateMetadata({
 }) {
   const { id } = await params;
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/players/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/players/${id}`,
   );
   const data = await response.json();
   if (!data) return null;
@@ -39,7 +39,7 @@ export async function generateMetadata({
 
 async function getServerSideProps(id: string) {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/players/${id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/players/${id}`,
   );
   const data = await response.json();
   if (!data) return null;
@@ -67,9 +67,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
         </div>
         <div className="text-center">
           <h1 className="font-semibold text-primary">{data[0].name}</h1>
-          <h2 className="text-secondary text-sm">
-            {data[0].age ? data[0].age : null}
-          </h2>
+          <h2 className="text-secondary">{data[0].age ? data[0].age : null}</h2>
         </div>
       </header>
 

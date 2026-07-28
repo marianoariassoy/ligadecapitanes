@@ -6,10 +6,8 @@ export const metadata = {
 
 const page = () => {
   return (
-    <section className="fade-in flex flex-col gap-y-3 text-sm">
-      <Title title="¡Hola!" emoji="👋" />
-
-      <div className="flex flex-col gap-y-3 text-sm [&>p>span]:text-primary [&>p>span]:block [&>p>span]:font-bold mb-6">
+    <section className="fade-in flex flex-col gap-y-3">
+      <div className="flex flex-col gap-y-3 [&>p>span]:text-primary [&>p>span]:block [&>p>span]:font-bold mb-6 mt-4">
         <p>
           Nuestra Liga está conformada por un grupo de jugadores de tenis de
           Clubes, Barrios y Countries de Zona Norte de Buenos Aires, reunidos
