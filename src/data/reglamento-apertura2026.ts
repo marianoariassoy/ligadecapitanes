@@ -136,30 +136,31 @@ La Organización se reserva el derecho de modificar el reglamento cuando sea nec
     title: "Anexo I: Categoría Segunda +35",
     text: `1ra Fase: “Round Robin” general por grupos
 
-El Torneo se conforma con dos (2) grupos/zonas (“A” y “B”) de nueve (9) equipos en cada
-uno, lo que totaliza en conjunto dieciocho (18) inscriptos para la presente edición.
-Se juega una primera fase con formato de “Round Robin” o “todos contra todos” dentro de
-cada grupo, totalizando ocho (8) encuentros para cada equipo de ambos grupos.
+El Torneo se conforma con dos (2) grupos/zonas (“A” y “B”) de 10 y 9 equipos -respectivamente- en cada uno, lo que totaliza en conjunto diecinueve (19) inscriptos para la presente edición.
 
-Los primeros 4 clasificados de esta fase en el grupo “A”, junto con los 4 primeros del grupo
-“B”, conformarán una nueva zona de ganadores, llamada Copa Gaudio Segunda (8
-equipos).
+Se juega una primera fase con formato de “Round Robin” o “todos contra todos” dentro de cada grupo, totalizando nueve (9) encuentros para cada equipo del grupo “A”, y ocho (8) encuentros para cada equipo del grupo “B”.
+
+Los primeros 5 clasificados de esta fase en el grupo “A”, junto con los 4 primeros del grupo
+“B”, conformarán una nueva zona de ganadores, llamada Copa Gaudio Segunda (9
+equipos). A esta zona se le agregará el último de la tabla general correspondiente a los
+equipos de la categoría inmediatamente superior (Intermedia), totalizando 10 equipos en
+competencia por esta Copa.
 
 Por su parte, los ubicados en las restantes posiciones de la clasificación en los dos grupos
-antes mencionados formarán la zona perdedores, o Copa Coria Segunda (otros 10
-equipos).
+antes mencio
 
-2da Fase: Eliminatorias en zonas
+2da Fase: Eliminatorias en zonas.
 
 Definidos los ingresos a las Copas Gaudio Segunda o Coria Segunda se competirá en una
 nueva fase, esta vez de eliminación del torneo para algunos equipos, con el fin de definir
 a los semifinalistas de cada zona.
 
-Los ocho (8) equipos de la Copa Gaudio Segunda jugarán tres (3) partidos contra rivales
+Los diez (10) equipos de la Copa Gaudio Segunda jugarán tres (3) partidos contra rivales
 de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a fin de
 establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que se
-invertirá la condición de local. Los equipos que hayan quedado en la primera posición de
-cada zona no se cruzarán entre sí.
+invertirá la condición de local. Los equipos que hayan quedado en la primera y segunda
+posición de una zona no se cruzarán con quienes hayan hecho lo propio en la zona
+restante.
 
 Asimismo, los otros diez (10) equipos de la Copa Coria Segunda jugarán tres (3) partidos
 contra rivales de esa misma zona, definidos del mismo modo. Los equipos que hayan
@@ -168,26 +169,26 @@ hecho lo propio en la zona restante.
 
 Luego de estos 3 partidos, los 4 equipos mejor clasificados en cada zona (o Copa) pasarán
 a la fase final del torneo, de eliminación directa (Play off).
-Con este esquema, se garantiza la participación de todos los equipos con un mínimo de 11
-encuentros jugados, y hasta un máximo de 13 fechas generales a jugarse, manteniendo
-vivas para todos, las aspiraciones por acceder a las instancias de premiación,
-prácticamente hasta el final de la competencia.
+Con este esquema, se garantiza la participación de todos los equipos con un mínimo de
+entre 11 y 12 encuentros jugados, y hasta un máximo de 14 fechas generales a jugarse,
+manteniendo vivas para todos, las aspiraciones por acceder a las instancias de
+premiación, prácticamente hasta el final de la competencia.
 
-3ra Fase: Semifinales y Finales
-
+3ra Fase: Semifinales y Finales.
+ 
 Los cuatro (4) equipos mejor clasificados de cada Copa jugarán las semifinales.
-
-Reglamento de la Liga de Capitanes
 Los cruces y las localías se determinarán en función de los resultados obtenidos en la 2da
 Fase (El Primero -de local- versus el Cuarto -como visitante-, y el Segundo -de local- versus
 el Tercero -como visitante-).
+
 Los ganadores de esos cruces jugarán las finales de la Copa Gaudio Segunda y de la Copa
 Coria Segunda en cancha neutral, a efectos de definir al campeón y subcampeón de cada
 una.
+
 Las posiciones finales en una y otra copa determinarán la distribución de los equipos que
-participen en la edición del Torneo prevista para el segundo semestre del año, con el
-ascenso a la categoría INTERMEDIA +35 de los dos equipos finalistas de la Copa Gaudio
-Segunda.
+participen en la edición del Torneo prevista para el primer semestre del próximo año, con
+el ascenso a la categoría INTERMEDIA +35 -o la que en su defecto la reemplace- de los dos
+equipos finalistas de la Copa Gaudio Segunda.
 
 `,
   },
@@ -196,54 +197,68 @@ Segunda.
     title: "Anexo II: Categoría Intermedia +35",
     text: `1ra Fase: “Round Robin” general por grupos
 
-El Torneo se conforma con dos (2) grupos/zonas (“A” y “B”) de ocho (8) equipos en cada
-uno, lo que totaliza en conjunto dieciséis (16) inscriptos para la presente edición.
+El Torneo se conforma con dos (2) grupos/zonas (“A” y “B”) de 9 y 10 equipos -respectivamente- en cada uno, lo que totaliza en conjunto diecinueve (19) inscriptos para
+la presente edición.
+
 Se juega una primera fase con formato de “Round Robin” o “todos contra todos” dentro de
-cada grupo, totalizando siete (7) encuentros para cada equipo de ambos grupos.
+cada grupo, totalizando ocho (8) encuentros para cada equipo del grupo “A”, y nueve (9)
+encuentros para cada equipo del grupo “B”.
+
 Los primeros 4 clasificados de esta fase en el grupo “A”, junto con los 4 primeros del grupo
-“B”, conformarán una nueva zona de ganadores, llamada Copa Gaudio
-Intermedia (8 equipos).
-De esta manera, los ubicados en las restantes posiciones de la clasificación en los dos
-grupos antes mencionados formarán la zona perdedores, o Copa Coria Intermedia (otros
-8 equipos).
-Por su parte, los ubicados en las restantes posiciones de la clasificación en los dos grupos
-antes mencionados formarán la zona perdedores, o Copa Coria Intermedia (otros 8
+“B”, conformarán una nueva zona de ganadores, llamada Copa Gaudio Intermedia (8
 equipos).
 
+Asimismo, entre los otros nueve (9) equipos restantes se organizará una “subtabla”
+general ordenada de mayor a menor según el porcentaje de efectividad de cada uno de
+ellos respecto de las series ganadas sobre las jugadas. El equipo con porcentaje más bajo,
+pasará a jugar la Copa Gaudio Segunda. En caso de igualdad en el último lugar de la
+“subtabla” general, se definirá el pase a la categoría inmediata inferior repitiendo el
+análisis de efectividad porcentual para las restantes variables que contempla el punto 3
+del Reglamento General (partidos ganados, sets ganados, games ganados, etc.)
+De esta manera, los ubicados en las restantes posiciones de la clasificación en los dos
+grupos antes mencionados formarán la zona perdedores, o Copa Coria Intermedia (otros
+10 equipos).
 
-2da Fase: Eliminatorias en zonas
+2da Fase: Eliminatorias en zonas.
 
 Definidos los ingresos a las Copas Gaudio Intermedia o Coria Intermedia se competirá en
 una nueva fase, esta vez de eliminación del torneo para algunos equipos, con el fin de
 definir a los semifinalistas de cada zona.
-Los ocho (8) equipos de la Copa Gaudio Intermedia jugarán cuatro (4) partidos contra
-rivales de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a
-fin de establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que
-se invertirá la condición de local.
 
-Asimismo, los otros ocho (8) equipos de la Copa Coria Intermedia jugarán cuatro (4)
-partidos contra rivales de esa misma zona, definidos del mismo modo.
-Pág. 10
-Reglamento de la Liga de Capitanes
-Luego de estos 4 partidos, los 4 equipos mejor clasificados en cada zona (o Copa) pasarán
+Los ocho (8) equipos de la Copa Gaudio Intermedia jugarán tres (3) partidos contra rivales
+de esa misma zona a definirse por sorteo, igual metodología a la que se aplicará a fin de
+establecer las localías, salvo el caso de reiterarse cruces de la fase previa, en los que se
+invertirá la condición de local. Los equipos que hayan quedado en la primera posición de
+cada zona no se cruzarán entre sí.
+
+Asimismo, los otros diez (10) equipos de la Copa Coria Intermedia jugarán tres (3)
+partidos contra rivales de esa misma zona, definidos del mismo modo. Los equipos que
+hayan quedado en la primera y segunda posición de una zona no se cruzarán con quienes
+hayan hecho lo propio en la zona restante.
+
+Luego de estos 3 partidos, los 4 equipos mejor clasificados en cada zona (o Copa) pasarán
 a la fase final del torneo, de eliminación directa (Play off).
-Con este esquema, se garantiza la participación de todos los equipos con un mínimo de 11
-encuentros jugados, y hasta un máximo de 13 fechas generales a jugarse, manteniendo
-vivas para todos, las aspiraciones por accede
+Con este esquema, se garantiza la participación de todos los equipos con un mínimo de
+entre 11 y 12 encuentros jugados, y hasta un máximo de 14 fechas generales a jugarse,
+manteniendo vivas para todos, las aspiraciones por acceder a las instancias de
+premiación, prácticamente hasta el final de la competencia.
 
-3ra Fase: Semifinales y Finales
+3ra Fase: Semifinales y Finales.
 
 Los cuatro (4) equipos mejor clasificados de cada Copa jugarán las semifinales.
+
 Los cruces y las localías se determinarán en función de los resultados obtenidos en la 2da
 Fase (El Primero -de local- versus el Cuarto -como visitante-, y el Segundo -de local- versus
 el Tercero -como visitante-).
+
 Los ganadores de esos cruces jugarán las finales de la Copa Gaudio Intermedia y de la Copa
 Coria Intermedia en cancha neutral, a efectos de definir al campeón y subcampeón de cada
 una.
 Las posiciones finales en una y otra copa determinarán la distribución de los equipos que
-participen en la edición del Torneo prevista para el segundo semestre del año, con el
-descenso a la categoría SEGUNDA +35 de los dos equipos con más baja performance entre
-los que participen de la Copa Coria Intermedia.
+participen en la edición del Torneo prevista para el primer semestre del próximo año, con
+el descenso a la categoría SEGUNDA +35 -o la que en su defecto la reemplace- de los dos
+equipos con más baja performance entre los que participen de la Copa Coria Intermedia.
+ 
 
 `,
   },
